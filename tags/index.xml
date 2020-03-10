@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Uncertainty</title>
       <link>/tags/uncertainty/</link>
       <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
@@ -125,6 +116,15 @@
       <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/percentile-height/intensity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
@@ -273,7 +273,7 @@
     </item>
     
     <item>
-      <title>deconvolution</title>
+      <title>Deconvolution</title>
       <link>/tags/deconvolution/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -354,7 +354,7 @@
     </item>
     
     <item>
-      <title>Photon counting LiDAR</title>
+      <title>Photon counting lidar</title>
       <link>/tags/photon-counting-lidar/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       

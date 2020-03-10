@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICESat-2 on Tan Zhou</title>
+    <link>/tags/icesat-2/</link>
+    <description>Recent content in ICESat-2 on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/icesat-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Estimating aboveground biomass and forest canopy cover with simulated ICESat-2 data</title>
+      <link>/publications/icesat-2_biomass/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/icesat-2_biomass/</guid>
+      <description>Introduction:
+The Ice, Cloud and Land Elevation Satellite-2 (ICESat-2) launched on September 15th, 2018 and this mission offers an extraordinary opportunity to contribute to an assessment of forest resources at multiple spatial scales. This study served to develop a methodology for utilizing ICESat-2 data over vegetated areas.
+Goal: The specific objectives were to: (1) derive a simulated ICESat-2 photon-counting lidar (PCL) vegetation product using airborne lidar data,
+(2) examine the use of simulated PCL metrics for modelling aboveground biomass (AGB) along ICESat-2 profiles using a simulated ICESat-2 PCL vegetation product and reference AGB estimated from airborne lidar data, and</description>
+    </item>
+    
+    <item>
+      <title>Mapping forest aboveground biomass with a simulated ICESat-2 vegetation canopy product and Landsat data</title>
+      <link>/publications/icesat-2_biomass_another/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/icesat-2_biomass_another/</guid>
+      <description>Introduction: The assessment of forest aboveground biomass (AGB) can contribute to reducing uncertainties associated with the amount and distribution of terrestrial carbon. The Ice, Cloud and land Elevation Satellite-2 (ICESat-2) was launched on September 15th, 2018 and will provide data which will offer the possibility of assessing AGB and forest carbon at multiple spatial scales.
+Goal: The primary goal of this study was to develop an approach for utilizing data similar to ICESat-2&amp;rsquo;s land-vegetation along track product (ATL08) to generate wall-to-wall AGB maps.</description>
+    </item>
+    
+    <item>
+      <title>Photon counting LiDAR: An adaptive ground and canopy height retrieval algorithm for ICESat-2 data</title>
+      <link>/publications/photon_couting_algorithms/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/photon_couting_algorithms/</guid>
+      <description>Introduction:
+The upcoming Ice, Cloud and Land Elevation Satellite-2 (ICESat-2) mission will offer prospects for mapping and monitoring biomass and carbon of terrestrial ecosystems over large areas using photon counting LiDAR data
+Goal:
+We aim to develop a methodology to derive terrain elevation and vegetation canopy height from testbed sensor data and further pre-validate the capacity of the mission to meet its science objectives for the ecosystem community.
+Methods:
+We investigated a novel methodological framework with two essential steps for characterizing terrain and canopy height using Multiple Altimeter Beam Experimental LiDAR (MABEL) data and simulated ICESat-2 data with various vegetation conditions.</description>
+    </item>
+    
+  </channel>
+</rss>

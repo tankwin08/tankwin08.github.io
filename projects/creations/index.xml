@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creations on Tan Zhou</title>
+    <link>/projects/creations/</link>
+    <description>Recent content in Creations on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate>
+    
+	<atom:link href="/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>waveform decomposition vs. deconvolution</title>
+      <link>/projects/creations/waveformlidar_processing/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/waveformlidar_processing/</guid>
+      <description>Goal:
+Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
+Introduction:
+A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
+    </item>
+    
+    <item>
+      <title>R package - waveformlidar data processing and analysis</title>
+      <link>/projects/creations/waveformlidar_r_package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/waveformlidar_r_package/</guid>
+      <description>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
+Introduction:
+A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian decompostion of waveform lidar and uncertaitny analysis</title>
+      <link>/projects/creations/bayesian_decompostion/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian_decompostion/</guid>
+      <description>The subsquent section is mainly to show how to quantify the uncertaity of waveform processing uinsg Bayesian method. The detailed description of the approach can refer to https://www.researchgate.net/publication/319018940_Bayesian_decomposition_of_full_waveform_LiDAR_data_with_uncertainty_analysis
+In the domain of LiDAR applications, the observations or data are inherently subject to various errors such as system setting, system calibration, and range measurement errors. Additionally, the LiDAR vendors often do not clearly state what errors are considered when the data are provided.</description>
+    </item>
+    
+    <item>
+      <title>Tree segmentation using free available tools</title>
+      <link>/projects/creations/tree_segmentation/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/tree_segmentation/</guid>
+      <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
+    </item>
+    
+  </channel>
+</rss>

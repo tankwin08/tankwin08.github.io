@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tan Zhou</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Feb 2020 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/tags/bayesian/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brms</title>
+      <link>/tags/brms/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/brms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty</title>
+      <link>/tags/uncertainty/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty propragation</title>
+      <link>/tags/uncertainty-propragation/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/uncertainty-propragation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waveformlidar</title>
+      <link>/tags/waveformlidar/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/waveformlidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Gaussian</title>
+      <link>/tags/adaptive-gaussian/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/adaptive-gaussian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decompostion and deconvolution</title>
+      <link>/tags/decompostion-and-deconvolution/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/decompostion-and-deconvolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaussian</title>
+      <link>/tags/gaussian/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/gaussian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gold/RL</title>
+      <link>/tags/gold/rl/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/gold/rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyper point cloud</title>
+      <link>/tags/hyper-point-cloud/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/hyper-point-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEON</title>
+      <link>/tags/neon/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/neon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>percentile height/intensity</title>
+      <link>/tags/percentile-height/intensity/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/percentile-height/intensity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weibull</title>
+      <link>/tags/weibull/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/weibull/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>/tags/automation/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>counting</title>
+      <link>/tags/counting/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plant breeding</title>
+      <link>/tags/plant-breeding/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plant-breeding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plant phenotyping</title>
+      <link>/tags/plant-phenotyping/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plant-phenotyping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>semantic segmentation</title>
+      <link>/tags/semantic-segmentation/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/semantic-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sorghum panicle</title>
+      <link>/tags/sorghum-panicle/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sorghum-panicle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unmanned aerial systems (UAS)</title>
+      <link>/tags/unmanned-aerial-systems-uas/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unmanned-aerial-systems-uas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian multinomial logistic regression</title>
+      <link>/tags/bayesian-multinomial-logistic-regression/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian-multinomial-logistic-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>composite waveform</title>
+      <link>/tags/composite-waveform/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/composite-waveform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conditional inference forests</title>
+      <link>/tags/conditional-inference-forests/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conditional-inference-forests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning, Random forests</title>
+      <link>/tags/machine-learning-random-forests/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/machine-learning-random-forests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree segmentation</title>
+      <link>/tags/tree-segmentation/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tree-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>watershed</title>
+      <link>/tags/watershed/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/watershed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waveform signatures</title>
+      <link>/tags/waveform-signatures/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/waveform-signatures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deconvolution</title>
+      <link>/tags/deconvolution/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deconvolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>waveform decomposition</title>
+      <link>/tags/waveform-decomposition/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/waveform-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>waveform gridding &amp; voxel</title>
+      <link>/tags/waveform-gridding-voxel/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/waveform-gridding-voxel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AGB</title>
+      <link>/tags/agb/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/agb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATL08</title>
+      <link>/tags/atl08/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/atl08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canopy cover</title>
+      <link>/tags/canopy-cover/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/canopy-cover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canopy height</title>
+      <link>/tags/canopy-height/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/canopy-height/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carbon</title>
+      <link>/tags/carbon/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/carbon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICESat-2</title>
+      <link>/tags/icesat-2/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/icesat-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon counting LiDAR</title>
+      <link>/tags/photon-counting-lidar/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/photon-counting-lidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AGB mapping</title>
+      <link>/tags/agb-mapping/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/agb-mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LandSat</title>
+      <link>/tags/landsat/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/landsat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gridding</title>
+      <link>/tags/gridding/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gridding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HPC-based intensity surface</title>
+      <link>/tags/hpc-based-intensity-surface/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hpc-based-intensity-surface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyper point cloud (HPC)</title>
+      <link>/tags/hyper-point-cloud-hpc/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hyper-point-cloud-hpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetation structure</title>
+      <link>/tags/vegetation-structure/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vegetation-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATL03, ATL08</title>
+      <link>/tags/atl03-atl08/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/atl03-atl08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATLAS</title>
+      <link>/tags/atlas/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MABEL</title>
+      <link>/tags/mabel/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mabel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon classification</title>
+      <link>/tags/photon-classification/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/photon-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terrain elevation</title>
+      <link>/tags/terrain-elevation/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/terrain-elevation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monit</title>
+      <link>/tags/monit/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/monit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TreeVaw</title>
+      <link>/tags/treevaw/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/treevaw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biomass</title>
+      <link>/tags/biomass/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/biomass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Change detection</title>
+      <link>/tags/change-detection/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/change-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconstructed tree model (RTM)</title>
+      <link>/tags/reconstructed-tree-model-rtm/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reconstructed-tree-model-rtm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snag</title>
+      <link>/tags/snag/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/snag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standing dead tree (SDT)</title>
+      <link>/tags/standing-dead-tree-sdt/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/standing-dead-tree-sdt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structural loss</title>
+      <link>/tags/structural-loss/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/structural-loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terrestrial lidar</title>
+      <link>/tags/terrestrial-lidar/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/terrestrial-lidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Volume, Voxel</title>
+      <link>/tags/volume-voxel/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/volume-voxel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>algorithm development</title>
+      <link>/tags/algorithm-development/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algorithm-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian inference</title>
+      <link>/tags/bayesian-inference/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decomposition</title>
+      <link>/tags/decomposition/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model reasonableness</title>
+      <link>/tags/model-reasonableness/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-reasonableness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree canopy height</title>
+      <link>/tags/tree-canopy-height/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tree-canopy-height/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waveform LiDAR</title>
+      <link>/tags/waveform-lidar/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/waveform-lidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gold</title>
+      <link>/tags/gold/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameter uncertainty</title>
+      <link>/tags/parameter-uncertainty/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/parameter-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Richardson-Lucy (RL)</title>
+      <link>/tags/richardson-lucy-rl/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/richardson-lucy-rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>/tags/apache/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redirect</title>
+      <link>/tags/redirect/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>/tags/redirect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rewrite</title>
+      <link>/tags/rewrite/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>/tags/rewrite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssl</title>
+      <link>/tags/ssl/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>/tags/web-development/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tan Zhou | Estimating aboveground biomass and forest canopy cover with simulated ICESat-2 data</title>
+  <meta property="og:title" content="Tan Zhou | Estimating aboveground biomass and forest canopy cover with simulated ICESat-2 data" />
+  <meta property="og:image" content="/img/tan_zhou.jpg" />
+  <meta name="description" content="An example of using ICESat-2 data to estimate the biomass of forest over a regional scale.">
+  <meta property="og:description" content="An example of using ICESat-2 data to estimate the biomass of forest over a regional scale." />
+  <meta name="author" content="Tan Zhou">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
+  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Tan Zhou</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/tan_zhou.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/publications/">Publications</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/publications/icesat-2_biomass/">Estimating aboveground biomass and forest canopy cover with simulated ICESat-2 data</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column content">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Estimating aboveground biomass and forest canopy cover with simulated ICESat-2 data</span></h2>
+    <p><a href="https://www.researchgate.net/publication/330822419_Estimating_aboveground_biomass_and_forest_canopy_cover_with_simulated_ICESat-2_data">Link to full Paper</a></p>
+    <img src="/img/icesat-2_biomass.png" style="max-height:300px;max-width:90%;" align="center"/>
+    <p><strong>Introduction:</strong></p>
+<p>The Ice, Cloud and Land Elevation Satellite-2 (ICESat-2) launched on September 15th, 2018 and this mission offers an extraordinary opportunity to contribute to an assessment of forest resources at multiple spatial scales.
+This study served to develop a methodology for utilizing ICESat-2 data over vegetated areas.</p>
+<p><strong>Goal:</strong>
+The specific objectives were to: 
+(1) derive a simulated ICESat-2 photon-counting lidar (PCL) vegetation product using airborne lidar data,</p>
+<p>(2) examine the use of simulated PCL metrics for modelling aboveground biomass (AGB) along ICESat-2 profiles using a simulated ICESat-2 PCL vegetation product and reference AGB estimated from airborne lidar data, and</p>
+<p>(3) estimate forest canopy cover using simulated PCL canopy product data and airborne lidarderived canopy cover.</p>
+<p><strong>Where and scenarios:</strong>
+Using existing airborne lidar data for Sam Houston National Forest (SHNF) in Texas and known ICESat-2 track locations, PCL simulations were carried out. Three scenarios were analyzed in this study;</p>
+<ol>
+<li>
+<p>simulated data without the addition of noise,</p>
+</li>
+<li>
+<p>processed simulated data for daytime, and</p>
+</li>
+<li>
+<p>nighttime scenarios.</p>
+</li>
+</ol>
+<p><strong>Highlights:</strong></p>
+<p><strong>product</strong>
+Segments measuring 100m along the proposed ICESat-2 tracks were used to extract simulated PCL metrics from each of the three data scenarios and spatially coincident, reference airborne lidar-estimated AGB and airborne lidar canopy cover estimates.</p>
+<p>Linear regression models were then developed with a subset of the simulated PCL segments to estimate AGB and canopy cover and their performance assessed using separate testing sets.</p>
+<p><strong>Three scenarios:</strong>
+AGB model testing with the simulated dataset without noise, nighttime and daytime scenarios resulted in R2 values of 0.79, 0.79 and 0.63 respectively, with root mean square error (RMSE) values of 19.16 Mg/ha,
+19.23 Mg/ha, and 25.35 Mg/ha. Predictive models for canopy cover (4.6 m) achieved R2 values of 0.93, 0.75 and
+0.63 and RMSE values of 6.36%, 12.33% and 15.01% for the simulated dataset without noise, nighttime and
+daytime scenarios respectively.</p>
+<p>Findings from this study suggest the potential of ICESat-2 for estimating AGB, given the photon detection rate and background noise anticipated by ICESat-2 under temperate forest settings, and especially in the data format provided by standard ICESat-2 data vegetation products.</p>
+
+    <p class="mt-3">
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/icesat-2">ICESat-2</a></li>
+    
+      <li><a class="tag" href="/tags/agb">AGB</a></li>
+    
+      <li><a class="tag" href="/tags/photon-counting-lidar">Photon counting lidar</a></li>
+    
+      <li><a class="tag" href="/tags/atl08">ATL08</a></li>
+    
+      <li><a class="tag" href="/tags/canopy-cover">Canopy cover</a></li>
+    
+      <li><a class="tag" href="/tags/canopy-height">Canopy height</a></li>
+    
+      <li><a class="tag" href="/tags/carbon">Carbon</a></li>
+    
+</ul>
+
+    </p>
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+  
+
+  
+</body>
+</html>

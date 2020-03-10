@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gridding on Tan Zhou</title>
+    <link>/tags/gridding/</link>
+    <description>Recent content in gridding on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gridding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From LiDARWaveforms to Hyper Point Clouds: A Novel Data Product to Characterize Vegetation Structure</title>
+      <link>/publications/hyper_point_cloud/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/hyper_point_cloud/</guid>
+      <description>Introduction:
+Full waveform (FW) LiDAR holds great potential for retrieving vegetation structure parameters at a high level of detail, but this prospect is constrained by practical factors such as the lack of available handy processing tools and the technical intricacy of waveform processing.
+Methods:
+This study introduces a new product named the Hyper Point Cloud (HPC), derived from FW LiDAR data, and explores its potential applications, such as tree crown delineation using the HPC-based intensity and percentile height (PH) surfaces, which shows promise as a solution to the constraints of using FW LiDAR data.</description>
+    </item>
+    
+  </channel>
+</rss>

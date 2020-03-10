@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncertainty on Tan Zhou</title>
+    <link>/tags/uncertainty/</link>
+    <description>Recent content in Uncertainty on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Feb 2020 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian decomposition of full waveform LiDAR data with uncertainty analysis</title>
+      <link>/publications/bayesian_decomposition/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/bayesian_decomposition/</guid>
+      <description>Introduction:
+A thorough understanding of full waveform (FW) LiDAR data processing and associated uncertainty is critical to vegetation applications such as retrieving forest structure variables and estimating forest biomass.
+Goal:
+To qunaitfy the uncertaitny of the estimation and gain a deep understanding of waveform lidar processing.
+Methods:
+This paper applies the Bayesian non-linear modeling concept to process small-footprint FW LiDAR data (the Bayesian decomposition) collected at a study site of the National Ecological Observatory Network (NEON) to investigate its potential for waveform decomposition and uncertainty estimation.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian decompostion of waveform lidar and uncertaitny analysis</title>
+      <link>/projects/creations/bayesian_decompostion/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian_decompostion/</guid>
+      <description>The subsquent section is mainly to show how to quantify the uncertaity of waveform processing uinsg Bayesian method. The detailed description of the approach can refer to https://www.researchgate.net/publication/319018940_Bayesian_decomposition_of_full_waveform_LiDAR_data_with_uncertainty_analysis
+In the domain of LiDAR applications, the observations or data are inherently subject to various errors such as system setting, system calibration, and range measurement errors. Additionally, the LiDAR vendors often do not clearly state what errors are considered when the data are provided.</description>
+    </item>
+    
+  </channel>
+</rss>

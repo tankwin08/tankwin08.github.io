@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carbon on Tan Zhou</title>
+    <link>/tags/carbon/</link>
+    <description>Recent content in Carbon on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/carbon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Estimating aboveground biomass and forest canopy cover with simulated ICESat-2 data</title>
+      <link>/publications/icesat-2_biomass/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/icesat-2_biomass/</guid>
+      <description>Introduction:
+The Ice, Cloud and Land Elevation Satellite-2 (ICESat-2) launched on September 15th, 2018 and this mission offers an extraordinary opportunity to contribute to an assessment of forest resources at multiple spatial scales. This study served to develop a methodology for utilizing ICESat-2 data over vegetated areas.
+Goal: The specific objectives were to: (1) derive a simulated ICESat-2 photon-counting lidar (PCL) vegetation product using airborne lidar data,
+(2) examine the use of simulated PCL metrics for modelling aboveground biomass (AGB) along ICESat-2 profiles using a simulated ICESat-2 PCL vegetation product and reference AGB estimated from airborne lidar data, and</description>
+    </item>
+    
+  </channel>
+</rss>

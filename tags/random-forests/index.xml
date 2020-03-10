@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random forests on Tan Zhou</title>
+    <link>/tags/random-forests/</link>
+    <description>Recent content in Random forests on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/random-forests/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian and Classical Machine Learning Methods: A Comparison for Tree Species Classification with LiDAR Waveform Signatures</title>
+      <link>/publications/bayesian_machine_learning/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/bayesian_machine_learning/</guid>
+      <description>Introduction:
+A plethora of information contained in full-waveform (FW) Light Detection and Ranging (LiDAR) data offers prospects for characterizing vegetation structures.
+Goal:
+This study aims to investigate the capacity of FW LiDAR data alone for tree species identification through the integration of waveform metrics with machine learning methods and Bayesian inference.
+Methods:
+Specifically, we first conducted automatic tree segmentation based on the waveform-based canopy height model (CHM) using three approaches including TreeVaW, watershed algorithms and the combination of TreeVaW and watershed (TW) algorithms.</description>
+    </item>
+    
+  </channel>
+</rss>

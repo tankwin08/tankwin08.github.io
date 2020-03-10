@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ATL03, ATL08 on Tan Zhou</title>
+    <link>/tags/atl03-atl08/</link>
+    <description>Recent content in ATL03, ATL08 on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/atl03-atl08/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Photon counting LiDAR: An adaptive ground and canopy height retrieval algorithm for ICESat-2 data</title>
+      <link>/publications/photon_couting_algorithms/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/photon_couting_algorithms/</guid>
+      <description>Introduction:
+The upcoming Ice, Cloud and Land Elevation Satellite-2 (ICESat-2) mission will offer prospects for mapping and monitoring biomass and carbon of terrestrial ecosystems over large areas using photon counting LiDAR data
+Goal:
+We aim to develop a methodology to derive terrain elevation and vegetation canopy height from testbed sensor data and further pre-validate the capacity of the mission to meet its science objectives for the ecosystem community.
+Methods:
+We investigated a novel methodological framework with two essential steps for characterizing terrain and canopy height using Multiple Altimeter Beam Experimental LiDAR (MABEL) data and simulated ICESat-2 data with various vegetation conditions.</description>
+    </item>
+    
+  </channel>
+</rss>

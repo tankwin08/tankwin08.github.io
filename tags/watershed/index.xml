@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>watershed on Tan Zhou</title>
+    <link>/tags/watershed/</link>
+    <description>Recent content in watershed on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/watershed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian and Classical Machine Learning Methods: A Comparison for Tree Species Classification with LiDAR Waveform Signatures</title>
+      <link>/publications/bayesian_machine_learning_new/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/bayesian_machine_learning_new/</guid>
+      <description>Introduction:
+A plethora of information contained in full-waveform (FW) Light Detection and Ranging (LiDAR) data offers prospects for characterizing vegetation structures.
+Goal:
+This study aims to investigate the capacity of FW LiDAR data alone for tree species identification through the integration of waveform metrics with machine learning methods and Bayesian inference.
+Methods:
+Specifically, we first conducted automatic tree segmentation based on the waveform-based canopy height model (CHM) using three approaches including TreeVaW, watershed algorithms and the combination of TreeVaW and watershed (TW) algorithms.</description>
+    </item>
+    
+    <item>
+      <title>Tree segmentation using free available tools</title>
+      <link>/projects/creations/tree_segmentation/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/tree_segmentation/</guid>
+      <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
+    </item>
+    
+  </channel>
+</rss>

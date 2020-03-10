@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snag on Tan Zhou</title>
+    <link>/tags/snag/</link>
+    <description>Recent content in Snag on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/snag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting and Quantifying Standing Dead Tree Structural Loss with Reconstructed Tree Models Using Voxelized Terrestrial Lidar Data</title>
+      <link>/publications/terrestrail_lidar_scan/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/terrestrail_lidar_scan/</guid>
+      <description>Introduction:
+The structural loss rates of standing dead trees (SDTs) affect a variety of processes of interest to ecologists and foresters, yet the decomposition of SDTs has been traditionally characterized by qualitative decay classes, reductions in wood density as decay progresses, and sampling schemes focused on estimating snag longevity.
+By establishing a methodology to accurately and efficiently quantify SDT structural loss over time, these estimated structural loss rates would improve the performance of a variety of models and potentially provide new insight as to the manner in which SDTs undergo degradation in various conditions.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parameter uncertainty on Tan Zhou</title>
+    <link>/tags/parameter-uncertainty/</link>
+    <description>Recent content in Parameter uncertainty on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/parameter-uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gold-A novel deconvolution algorithm with optimization for waveform LiDAR processing</title>
+      <link>/publications/gold/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/gold/</guid>
+      <description>Introduction:
+Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-return LiDAR data inaccurately characterizing vegetation structure. However, we lack a comprehensive understanding ofwaveform data processing approaches under different topography and vegetation conditions.
+Goal:
+The objec-tive of this paper is to highlight a novel deconvolution algorithm, the Gold algorithm, for processingwaveform LiDAR data with optimal deconvolution parameters. Further, we present a comparative studyof waveform processing methods to provide insight into selecting an approach for a given combination ofvegetation and terrain characteristics.</description>
+    </item>
+    
+  </channel>
+</rss>

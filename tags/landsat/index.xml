@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LandSat on Tan Zhou</title>
+    <link>/tags/landsat/</link>
+    <description>Recent content in LandSat on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/landsat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mapping forest aboveground biomass with a simulated ICESat-2 vegetation canopy product and Landsat data</title>
+      <link>/publications/icesat-2_biomass_another/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/icesat-2_biomass_another/</guid>
+      <description>Introduction: The assessment of forest aboveground biomass (AGB) can contribute to reducing uncertainties associated with the amount and distribution of terrestrial carbon. The Ice, Cloud and land Elevation Satellite-2 (ICESat-2) was launched on September 15th, 2018 and will provide data which will offer the possibility of assessing AGB and forest carbon at multiple spatial scales.
+Goal: The primary goal of this study was to develop an approach for utilizing data similar to ICESat-2&amp;rsquo;s land-vegetation along track product (ATL08) to generate wall-to-wall AGB maps.</description>
+    </item>
+    
+  </channel>
+</rss>

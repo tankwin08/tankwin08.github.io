@@ -713,5 +713,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Architecture Optimization</title>
+      <link>/tags/architecture-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/architecture-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian optimization</title>
+      <link>/tags/bayesian-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification</title>
+      <link>/tags/classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutral Networks</title>
+      <link>/tags/neutral-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/neutral-networks/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

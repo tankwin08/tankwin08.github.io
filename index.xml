@@ -35,6 +35,17 @@ A wealth of Full Waveform (FW) LiDAR data are available to the public from diffe
     </item>
     
     <item>
+      <title>Bayesian optimization deep learning</title>
+      <link>/projects/creations/bayesian_optimziation_nn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/bayesian_optimziation_nn/</guid>
+      <description>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
+Introduction:
+A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
+    </item>
+    
+    <item>
       <title>R package - waveformlidar data processing and analysis</title>
       <link>/projects/creations/waveformlidar_r_package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

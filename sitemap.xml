@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/projects/creations/bayesian_optimziation_nn/</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>/projects/creations/waveformlidar_r_package/</loc>
     <priority>0.8</priority>
   </url>
@@ -521,6 +526,22 @@
   <url>
     <loc>/tags/web-development/</loc>
     <lastmod>2009-01-01T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/architecture-optimization/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian-optimization/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/classification/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/neutral-networks/</loc>
   </url>
   
   <url>

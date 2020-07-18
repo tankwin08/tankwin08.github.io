@@ -6,8 +6,8 @@
   <title>Tan Zhou | Bayesian optimization deep learning</title>
   <meta property="og:title" content="Tan Zhou | Bayesian optimization deep learning" />
   <meta property="og:image" content="/img/tan_zhou.jpg" />
-  <meta name="description" content="Developed an open source R package to the community for processing waveform lidar data and exemplify their uses.">
-  <meta property="og:description" content="Developed an open source R package to the community for processing waveform lidar data and exemplify their uses." />
+  <meta name="description" content="To construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN.">
+  <meta property="og:description" content="To construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN." />
   <meta name="author" content="Tan Zhou">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -126,10 +126,14 @@
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
   <div class="my-auto">
     <h2 class="mb-0"><span class="text-primary">Bayesian optimization deep learning</span></h2>
-    <img src="/img/r_package_graphic_abstract1.png" style="max-height:300px;max-width:30%;" align="right"/>
-    <p>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.</p>
-<p><strong>Introduction:</strong></p>
-<p>A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint. Specifically, this package provides several commonly used waveform processing methods such as Gaussian, adaptive Gaussian and Weibull decompositions, and deconvolution approaches (Gold and Richard-Lucy (RL)) with users customized settings. In addition, we also develop some functions to derive commonly used waveform metrics for characterizing vegetation structure. Moreover, a new way to directly visualize FW LiDAR data is developed through converting waveforms into points to form the Hyper Point cloud (HPC), which can be easily adopted and subsequently analyzed with existing discrete-return LiDAR processing tools such as LAStools and FUSION. Basic explorations of the HPC such as 3D voxelization of the HPC and conversion from original waveforms to composite waveforms are also available in this package. All of these functions are developed based on small-footprint FW LiDAR data, but they can be easily transplanted to the large footprint FW LiDAR data such as Geoscience Laser Altimeter System (GLAS) and Global Ecosystem Dynamics Investigation (GEDI) data analysis.</p>
+    <img src="/img/bo_example.png" style="max-height:300px;max-width:30%;" align="right"/>
+    <p><strong>Introduction:</strong></p>
+<p>The picture of Bayesian optimization is obtianed from <a href="https://github.com/fmfn/BayesianOptimization/tree/master/examples">here</a></p>
+<p><em><strong>Bayesian optimization</strong></em></p>
+<p>There are a lot of hyperparameters for machine learning models such as NN. Typically, random or grid search are effecient ways to conduct the optimization of models. They can be very time-consuming in some cases which waste time on unpromising areas of search space. Bayesian optimization can overcome this problem by adopting an informed seach method in the space to find the optmized parameters.</p>
+<p>Bayesian optimization works by constructing a posterior distribution of functions (gaussian process) that best describes the function you want to optimize. As the number of observations grows, the posterior distribution improves, and the algorithm becomes more certain of which regions in parameter space are worth exploring and which are not. You can find more information and explination here</p>
+<p>It&rsquo;s worthy to note that the Bayesian optimization is to find the maximum of a function. Thus, when we formulate a function and evaulation metrics, we should take this part into consideration. For example, when we used log loss to evaluate our model performance, the smaller values will be better. We should return a negative logloss to make it suitable for maximum of the defined function.</p>
+<p>Note: It took a long time to run if you have a big dataset and wide boundary. You can refer to Colab for running the code.</p>
 
     <p>Project link: <a href="https://github.com/tankwin08/Bayesian_optimization_deep_learning">https://github.com/tankwin08/Bayesian_optimization_deep_learning</a></p>
     <ul class="tags">

@@ -16,9 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/creations/bayesian_optimziation_nn/</guid>
-      <description>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
-Introduction:
-A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
+      <description>Introduction:
+The picture of Bayesian optimization is obtianed from here
+Bayesian optimization
+There are a lot of hyperparameters for machine learning models such as NN. Typically, random or grid search are effecient ways to conduct the optimization of models. They can be very time-consuming in some cases which waste time on unpromising areas of search space. Bayesian optimization can overcome this problem by adopting an informed seach method in the space to find the optmized parameters.</description>
     </item>
     
   </channel>

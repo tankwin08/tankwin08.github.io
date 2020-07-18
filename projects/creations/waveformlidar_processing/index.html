@@ -6,8 +6,8 @@
   <title>Tan Zhou | waveform decomposition vs. deconvolution</title>
   <meta property="og:title" content="Tan Zhou | waveform decomposition vs. deconvolution" />
   <meta property="og:image" content="/img/tan_zhou.jpg" />
-  <meta name="description" content="Developed an open source R package to the community for processing waveform lidar data and exemplify their uses.">
-  <meta property="og:description" content="Developed an open source R package to the community for processing waveform lidar data and exemplify their uses." />
+  <meta name="description" content="Compare the waveform lidar processing - Decompostion vs. Deconvolution">
+  <meta property="og:description" content="Compare the waveform lidar processing - Decompostion vs. Deconvolution" />
   <meta name="author" content="Tan Zhou">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -130,7 +130,32 @@
     <p><strong>Goal:</strong></p>
 <p>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.</p>
 <p><strong>Introduction:</strong></p>
-<p>A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint. Specifically, this package provides several commonly used waveform processing methods such as Gaussian, adaptive Gaussian and Weibull decompositions, and deconvolution approaches (Gold and Richard-Lucy (RL)) with users customized settings. In addition, we also develop some functions to derive commonly used waveform metrics for characterizing vegetation structure. Moreover, a new way to directly visualize FW LiDAR data is developed through converting waveforms into points to form the Hyper Point cloud (HPC), which can be easily adopted and subsequently analyzed with existing discrete-return LiDAR processing tools such as LAStools and FUSION. Basic explorations of the HPC such as 3D voxelization of the HPC and conversion from original waveforms to composite waveforms are also available in this package. All of these functions are developed based on small-footprint FW LiDAR data, but they can be easily transplanted to the large footprint FW LiDAR data such as Geoscience Laser Altimeter System (GLAS) and Global Ecosystem Dynamics Investigation (GEDI) data analysis.</p>
+<p>Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-return LiDAR data in
+accurately characterizing vegetation structure. However, we lack a comprehensive understanding of
+waveform data processing approaches under different topography and vegetation conditions. The objective
+of this paper is to highlight a novel deconvolution algorithm, the Gold algorithm, for processing
+waveform LiDAR data with optimal deconvolution parameters. Further, we present a comparative study
+of waveform processing methods to provide insight into selecting an approach for a given combination of
+vegetation and terrain characteristics. We employed two waveform processing methods: (1) direct
+decomposition, (2) deconvolution and decomposition. In method two, we utilized two deconvolution
+algorithms – the Richardson-Lucy (RL) algorithm and the Gold algorithm. The comprehensive and quantitative
+comparisons were conducted in terms of the number of detected echoes, position accuracy, the
+bias of the end products (such as digital terrain model (DTM) and canopy height model (CHM)) from
+the corresponding reference data, along with parameter uncertainty for these end products obtained
+from different methods. This study was conducted at three study sites that include diverse ecological
+regions, vegetation and elevation gradients. Results demonstrate that two deconvolution algorithms
+are sensitive to the pre-processing steps of input data. The deconvolution and decomposition method
+is more capable of detecting hidden echoes with a lower false echo detection rate, especially for the
+Gold algorithm. Compared to the reference data, all approaches generate satisfactory accuracy assessment
+results with small mean spatial difference (&lt;1.22 m for DTMs, &lt;0.77 m for CHMs) and root mean
+square error (RMSE) (&lt;1.26 m for DTMs, &lt;1.93 m for CHMs). More specifically, the Gold algorithm is superior
+to others with smaller root mean square error (RMSE) (&lt;1.01 m), while the direct decomposition
+approach works better in terms of the percentage of spatial difference within 0.5 and 1 m. The parameter
+uncertainty analysis demonstrates that the Gold algorithm outperforms other approaches in dense vegetation
+areas, with the smallest RMSE, and the RL algorithm performs better in sparse vegetation areas in
+terms of RMSE. Additionally, the high level of uncertainty occurs more on areas with high slope and high
+vegetation. This study provides an alternative and innovative approach for waveform processing that will
+benefit high fidelity processing of waveform LiDAR data to characterize vegetation structures.</p>
 
     <p>Project link: <a href="https://github.com/tankwin08/waveformlidar/tree/master/vignettes">https://github.com/tankwin08/waveformlidar/tree/master/vignettes</a></p>
     <ul class="tags">

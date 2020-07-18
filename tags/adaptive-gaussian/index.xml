@@ -31,7 +31,7 @@ A wealth of Full Waveform (FW) LiDAR data are available to the public from diffe
       <description>Goal:
 Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
 Introduction:
-A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
+Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-return LiDAR data in accurately characterizing vegetation structure. However, we lack a comprehensive understanding of waveform data processing approaches under different topography and vegetation conditions. The objective of this paper is to highlight a novel deconvolution algorithm, the Gold algorithm, for processing waveform LiDAR data with optimal deconvolution parameters.</description>
     </item>
     
     <item>

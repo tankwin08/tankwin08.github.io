@@ -36,6 +36,16 @@ There are a lot of hyperparameters for machine learning models such as NN. Typic
     </item>
     
     <item>
+      <title>Ensemble modelling for classification (machine learning and deep learning)</title>
+      <link>/projects/creations/ensemble_models_classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/ensemble_models_classification/</guid>
+      <description>Introduction:
+Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
+    </item>
+    
+    <item>
       <title>R package - waveformlidar data processing and analysis</title>
       <link>/projects/creations/waveformlidar_r_package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

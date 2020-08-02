@@ -12,9 +12,20 @@
     
     
     <item>
+      <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
+      <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
+      <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?
+This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series prediction.
+Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
+    </item>
+    
+    <item>
       <title>waveform decomposition vs. deconvolution</title>
       <link>/projects/creations/waveformlidar_processing/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      <pubDate>Mon, 11 Feb 2019 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/waveformlidar_processing/</guid>
       <description>Goal:
@@ -33,17 +44,6 @@ Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-
 The picture of Bayesian optimization is obtianed from here
 Bayesian optimization
 There are a lot of hyperparameters for machine learning models such as NN. Typically, random or grid search are effecient ways to conduct the optimization of models. They can be very time-consuming in some cases which waste time on unpromising areas of search space. Bayesian optimization can overcome this problem by adopting an informed seach method in the space to find the optmized parameters.</description>
-    </item>
-    
-    <item>
-      <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
-      <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
-      <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?
-This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series prediction.
-Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
     </item>
     
     <item>

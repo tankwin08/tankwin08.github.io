@@ -21,6 +21,12 @@
   </url>
   
   <url>
+    <loc>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</loc>
+    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>/projects/contributions/waveformlidar_r_package/</loc>
     <lastmod>2020-02-11T12:41:05-05:00</lastmod>
     <priority>0.8</priority>
@@ -28,17 +34,12 @@
   
   <url>
     <loc>/projects/creations/waveformlidar_processing/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <lastmod>2019-02-11T12:41:05-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>/projects/creations/bayesian_optimziation_nn/</loc>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</loc>
     <priority>0.8</priority>
   </url>
   
@@ -164,7 +165,22 @@
   </url>
   
   <url>
+    <loc>/tags/autoencoder/</loc>
+    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian-uncertainty/</loc>
+    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/decompostion-and-deconvolution/</loc>
+    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dropout/</loc>
     <lastmod>2020-02-11T12:41:05-05:00</lastmod>
   </url>
   
@@ -174,12 +190,22 @@
   </url>
   
   <url>
-    <loc>/tags/gold/rl/</loc>
+    <loc>/tags/hyper-point-cloud/</loc>
     <lastmod>2020-02-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hyper-point-cloud/</loc>
+    <loc>/tags/inherent-noise/</loc>
+    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/lstm/</loc>
+    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/model-misspecification/</loc>
     <lastmod>2020-02-11T12:41:05-05:00</lastmod>
   </url>
   
@@ -291,6 +317,11 @@
   <url>
     <loc>/tags/waveform-gridding-voxel/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gold/rl/</loc>
+    <lastmod>2019-02-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
@@ -548,23 +579,11 @@
   </url>
   
   <url>
-    <loc>/tags/autoencoder/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/bayesian-optimization/</loc>
   </url>
   
   <url>
-    <loc>/tags/bayesian-uncertainty/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/classification/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/dropout/</loc>
   </url>
   
   <url>
@@ -576,19 +595,7 @@
   </url>
   
   <url>
-    <loc>/tags/inherent-noise/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/lstm/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/machine-learning/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/model-misspecification/</loc>
   </url>
   
   <url>

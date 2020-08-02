@@ -6,6 +6,7 @@
     <description>Recent content in Dropout on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 11 Feb 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/dropout/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
       <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
       <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?

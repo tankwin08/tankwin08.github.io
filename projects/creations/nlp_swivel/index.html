@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Tan Zhou | Embedding layer</title>
-  <meta property="og:title" content="Tan Zhou | Embedding layer" />
+  <title>Tan Zhou | Sentiment analysis for review classification using SWIVEL and a small datasets</title>
+  <meta property="og:title" content="Tan Zhou | Sentiment analysis for review classification using SWIVEL and a small datasets" />
   <meta property="og:image" content="/img/tan_zhou.jpg" />
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="To retrain the pretrained model (Submatrix-wise Vector Embedding Learner (SWIVEL) using using a small collected review datasets and classify the reviews of customer feedback as either positive or negative.">
+  <meta property="og:description" content="To retrain the pretrained model (Submatrix-wise Vector Embedding Learner (SWIVEL) using using a small collected review datasets and classify the reviews of customer feedback as either positive or negative." />
   <meta name="author" content="Tan Zhou">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -88,18 +88,79 @@
 
   <div class="container-fluid p-0">
     
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/nlp_swivel/">Sentiment analysis for review classification using SWIVEL and a small datasets</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
   <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Sentiment analysis for review classification using SWIVEL and a small datasets</span></h2>
+    <img src="/img/nlp_flowchart.png" style="max-height:300px;max-width:30%;" align="right"/>
+    <p><strong>Introduction:</strong></p>
+<p>Genealy, it require an amount of data to train and a long time to train a NLP model for a specific dataset. 
+Transfer learning is commonly used in this case to conduct the sentiment analsis for Natural Language Processing (NLP) problem.</p>
+<p>Swivel performs approximate factorization of the point-wise mutual information matrix via stochastic gradient descent. 
+It uses a piecewise loss with special handling for unobserved co-occurrences, and thus makes use of all the information in the matrix.</p>
+<h3 id="pretrained-word-embeddingshttpswwwanalyticsvidhyacomblog202003pretrained-word-embeddings-nlp"><a href="https://www.analyticsvidhya.com/blog/2020/03/pretrained-word-embeddings-nlp/">Pretrained Word Embeddings</a></h3>
+<p>Pretrained Word Embeddings are the embeddings learned in one task that are used for solving another similar task.</p>
+<p>These embeddings are trained on large datasets, saved, and then used for solving other tasks. That’s why pretrained word embeddings are a form of Transfer Learning.</p>
+<p>CBOW (Continuous Bag Of Words) and Skip-Gram are two most popular frames for word embedding. In CBOW the words occurring in context (surrounding words) of a selected word are used as inputs and middle or selected word as the target. Its the other way round in Skip-Gram, here the middle word tries to predict the words coming before and after it.</p>
+<p><strong>Why do we need Pretrained Word Embeddings?</strong></p>
+<p>Pretrained word embeddings capture the semantic and syntactic meaning of a word as they are trained on large datasets. They are capable of boosting the performance of a Natural Language Processing (NLP) model. These word embeddings come in handy during hackathons and of course, in real-world problems as well.</p>
+<p>But why should we not learn our own embeddings? Well, learning word embeddings from scratch is a challenging problem due to two primary reasons:</p>
+<ul>
+<li>
+<p>1 Sparsity of training data</p>
+</li>
+<li>
+<p>2 Large number of trainable parameters</p>
+</li>
+</ul>
 
-  Content tagged with  <span class="tag">Embedding layer</span>
-    <ul>
-      
-          <li>
-             <a href="/projects/creations/nlp_swivel/">Sentiment analysis for review classification using SWIVEL and a small datasets</a>
-         </li>
-      
-    </ul>
+    <p>Project link: <a href="https://github.com/tankwin08/sentiment_analysis_SWIVEL">https://github.com/tankwin08/sentiment_analysis_SWIVEL</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/nlp">NLP</a></li>
+    
+      <li><a class="tag" href="/tags/swivel">SWIVEL</a></li>
+    
+      <li><a class="tag" href="/tags/transfer-learning">Transfer learning</a></li>
+    
+      <li><a class="tag" href="/tags/embedding-layer">Embedding layer</a></li>
+    
+</ul>
+
   </div>
 </section>
 

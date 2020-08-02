@@ -12,18 +12,6 @@
     
     <item>
       <title>Bayesian optimization deep learning</title>
-      <link>/projects/creations/bayesian_optimziation_nn-copy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/bayesian_optimziation_nn-copy/</guid>
-      <description>Introduction:
-The picture of Bayesian optimization is obtianed from here
-Bayesian optimization
-There are a lot of hyperparameters for machine learning models such as NN. Typically, random or grid search are effecient ways to conduct the optimization of models. They can be very time-consuming in some cases which waste time on unpromising areas of search space. Bayesian optimization can overcome this problem by adopting an informed seach method in the space to find the optmized parameters.</description>
-    </item>
-    
-    <item>
-      <title>Bayesian optimization deep learning</title>
       <link>/projects/creations/bayesian_optimziation_nn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

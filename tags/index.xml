@@ -273,7 +273,7 @@
     </item>
     
     <item>
-      <title>deconvolution</title>
+      <title>Deconvolution</title>
       <link>/tags/deconvolution/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -750,6 +750,24 @@
     </item>
     
     <item>
+      <title>Ensemble models</title>
+      <link>/tags/ensemble-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ensemble-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Neutral Networks</title>
       <link>/tags/neutral-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -764,6 +782,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimized NN</title>
+      <link>/tags/optimized-nn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/optimized-nn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust to noise</title>
+      <link>/tags/robust-to-noise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/robust-to-noise/</guid>
       <description></description>
     </item>
     

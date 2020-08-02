@@ -21,8 +21,14 @@
   </url>
   
   <url>
-    <loc>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <loc>/projects/creations/waveformlidar_processing/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/creations/ensemble_models_classification/</loc>
+    <lastmod>2020-02-14T12:41:05-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -33,8 +39,14 @@
   </url>
   
   <url>
-    <loc>/projects/creations/waveformlidar_processing/</loc>
-    <lastmod>2019-02-11T12:41:05-05:00</lastmod>
+    <loc>/projects/creations/nlp_swivel/</loc>
+    <lastmod>2020-02-01T12:41:05-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -44,17 +56,7 @@
   </url>
   
   <url>
-    <loc>/projects/creations/ensemble_models_classification/</loc>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>/projects/creations/waveformlidar_r_package/</loc>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/creations/nlp_swivel/</loc>
     <priority>0.8</priority>
   </url>
   
@@ -119,6 +121,47 @@
   </url>
   
   <url>
+    <loc>/tags/adaptive-gaussian/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/decompostion-and-deconvolution/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gaussian/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gold/rl/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/waveformlidar/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/weibull/</loc>
+    <lastmod>2029-02-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/bayesian/</loc>
     <lastmod>2020-02-15T12:41:05-05:00</lastmod>
   </url>
@@ -134,17 +177,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-02-15T12:41:05-05:00</lastmod>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-02-15T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/uncertainty/</loc>
     <lastmod>2020-02-15T12:41:05-05:00</lastmod>
   </url>
@@ -155,57 +187,27 @@
   </url>
   
   <url>
-    <loc>/tags/waveformlidar/</loc>
-    <lastmod>2020-02-15T12:41:05-05:00</lastmod>
+    <loc>/tags/ensemble-models/</loc>
+    <lastmod>2020-02-14T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/adaptive-gaussian/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2020-02-14T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/autoencoder/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <loc>/tags/optimized-nn/</loc>
+    <lastmod>2020-02-14T12:41:05-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bayesian-uncertainty/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/decompostion-and-deconvolution/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/dropout/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/gaussian/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <loc>/tags/robust-to-noise/</loc>
+    <lastmod>2020-02-14T12:41:05-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/hyper-point-cloud/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/inherent-noise/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/lstm/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/model-misspecification/</loc>
     <lastmod>2020-02-11T12:41:05-05:00</lastmod>
   </url>
   
@@ -225,8 +227,53 @@
   </url>
   
   <url>
-    <loc>/tags/weibull/</loc>
-    <lastmod>2020-02-11T12:41:05-05:00</lastmod>
+    <loc>/tags/embedding-layer/</loc>
+    <lastmod>2020-02-01T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nlp/</loc>
+    <lastmod>2020-02-01T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/swivel/</loc>
+    <lastmod>2020-02-01T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/transfer-learning/</loc>
+    <lastmod>2020-02-01T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/autoencoder/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian-uncertainty/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dropout/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/inherent-noise/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/lstm/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/model-misspecification/</loc>
+    <lastmod>2020-01-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
@@ -317,11 +364,6 @@
   <url>
     <loc>/tags/waveform-gridding-voxel/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/gold/rl/</loc>
-    <lastmod>2019-02-11T12:41:05-05:00</lastmod>
   </url>
   
   <url>
@@ -587,27 +629,7 @@
   </url>
   
   <url>
-    <loc>/tags/embedding-layer/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/ensemble-models/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/machine-learning/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/neutral-networks/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/nlp/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/optimized-nn/</loc>
   </url>
   
   <url>
@@ -616,20 +638,8 @@
   </url>
   
   <url>
-    <loc>/tags/robust-to-noise/</loc>
-  </url>
-  
-  <url>
     <loc>/search/</loc>
     <priority>0.1</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/swivel/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/transfer-learning/</loc>
   </url>
   
 </urlset>

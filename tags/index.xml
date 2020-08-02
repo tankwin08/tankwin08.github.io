@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2029 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adaptive Gaussian</title>
+      <link>/tags/adaptive-gaussian/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/adaptive-gaussian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decompostion and deconvolution</title>
+      <link>/tags/decompostion-and-deconvolution/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/decompostion-and-deconvolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaussian</title>
+      <link>/tags/gaussian/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/gaussian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gold/RL</title>
+      <link>/tags/gold/rl/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/gold/rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waveformlidar</title>
+      <link>/tags/waveformlidar/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/waveformlidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weibull</title>
+      <link>/tags/weibull/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/weibull/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bayesian</title>
@@ -48,65 +102,38 @@
     </item>
     
     <item>
-      <title>Waveformlidar</title>
-      <link>/tags/waveformlidar/</link>
-      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      <title>Ensemble models</title>
+      <link>/tags/ensemble-models/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/waveformlidar/</guid>
+      <guid>/tags/ensemble-models/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Adaptive Gaussian</title>
-      <link>/tags/adaptive-gaussian/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      <title>Machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/adaptive-gaussian/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Autoencoder</title>
-      <link>/tags/autoencoder/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      <title>optimized NN</title>
+      <link>/tags/optimized-nn/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/autoencoder/</guid>
+      <guid>/tags/optimized-nn/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bayesian Uncertainty</title>
-      <link>/tags/bayesian-uncertainty/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      <title>Robust to noise</title>
+      <link>/tags/robust-to-noise/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/bayesian-uncertainty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decompostion and deconvolution</title>
-      <link>/tags/decompostion-and-deconvolution/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/decompostion-and-deconvolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dropout</title>
-      <link>/tags/dropout/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/dropout/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaussian</title>
-      <link>/tags/gaussian/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/gaussian/</guid>
+      <guid>/tags/robust-to-noise/</guid>
       <description></description>
     </item>
     
@@ -116,33 +143,6 @@
       <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/hyper-point-cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inherent noise</title>
-      <link>/tags/inherent-noise/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/inherent-noise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LSTM</title>
-      <link>/tags/lstm/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/lstm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model misspecification</title>
-      <link>/tags/model-misspecification/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/model-misspecification/</guid>
       <description></description>
     </item>
     
@@ -174,11 +174,92 @@
     </item>
     
     <item>
-      <title>Weibull</title>
-      <link>/tags/weibull/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      <title>Embedding layer</title>
+      <link>/tags/embedding-layer/</link>
+      <pubDate>Sat, 01 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/weibull/</guid>
+      <guid>/tags/embedding-layer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>/tags/nlp/</link>
+      <pubDate>Sat, 01 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIVEL</title>
+      <link>/tags/swivel/</link>
+      <pubDate>Sat, 01 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/swivel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer learning</title>
+      <link>/tags/transfer-learning/</link>
+      <pubDate>Sat, 01 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoencoder</title>
+      <link>/tags/autoencoder/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/autoencoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Uncertainty</title>
+      <link>/tags/bayesian-uncertainty/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/bayesian-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropout</title>
+      <link>/tags/dropout/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/dropout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inherent noise</title>
+      <link>/tags/inherent-noise/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/inherent-noise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTM</title>
+      <link>/tags/lstm/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model misspecification</title>
+      <link>/tags/model-misspecification/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/model-misspecification/</guid>
       <description></description>
     </item>
     
@@ -345,15 +426,6 @@
     </item>
     
     <item>
-      <title>Gold/RL</title>
-      <link>/tags/gold/rl/</link>
-      <pubDate>Mon, 11 Feb 2019 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/gold/rl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AGB</title>
       <link>/tags/agb/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
@@ -408,7 +480,7 @@
     </item>
     
     <item>
-      <title>Photon counting LiDAR</title>
+      <title>Photon counting lidar</title>
       <link>/tags/photon-counting-lidar/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -795,83 +867,11 @@
     </item>
     
     <item>
-      <title>Embedding layer</title>
-      <link>/tags/embedding-layer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/embedding-layer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ensemble models</title>
-      <link>/tags/ensemble-models/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ensemble-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Neutral Networks</title>
       <link>/tags/neutral-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/neutral-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>/tags/nlp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>optimized NN</title>
-      <link>/tags/optimized-nn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/optimized-nn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robust to noise</title>
-      <link>/tags/robust-to-noise/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/robust-to-noise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SWIVEL</title>
-      <link>/tags/swivel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/swivel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transfer learning</title>
-      <link>/tags/transfer-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/transfer-learning/</guid>
       <description></description>
     </item>
     

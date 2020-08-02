@@ -6,20 +6,31 @@
     <description>Recent content in Home on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2029 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
-      <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
+      <title>waveform decomposition vs. deconvolution</title>
+      <link>/projects/creations/waveformlidar_processing/</link>
+      <pubDate>Sun, 11 Feb 2029 12:41:05 -0500</pubDate>
       
-      <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
-      <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?
-This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series prediction.
-Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
+      <guid>/projects/creations/waveformlidar_processing/</guid>
+      <description>Goal:
+Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
+Introduction:
+Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-return LiDAR data in accurately characterizing vegetation structure. However, we lack a comprehensive understanding of waveform data processing approaches under different topography and vegetation conditions. The objective of this paper is to highlight a novel deconvolution algorithm, the Gold algorithm, for processing waveform LiDAR data with optimal deconvolution parameters.</description>
+    </item>
+    
+    <item>
+      <title>Ensemble models for classification (combine deep learning with machine learning)</title>
+      <link>/projects/creations/ensemble_models_classification/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/ensemble_models_classification/</guid>
+      <description>Introduction:
+Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
     </item>
     
     <item>
@@ -34,15 +45,25 @@ A wealth of Full Waveform (FW) LiDAR data are available to the public from diffe
     </item>
     
     <item>
-      <title>waveform decomposition vs. deconvolution</title>
-      <link>/projects/creations/waveformlidar_processing/</link>
-      <pubDate>Mon, 11 Feb 2019 12:41:05 -0500</pubDate>
+      <title>Sentiment analysis for review classification using SWIVEL and a small datasets</title>
+      <link>/projects/creations/nlp_swivel/</link>
+      <pubDate>Sat, 01 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/projects/creations/waveformlidar_processing/</guid>
-      <description>Goal:
-Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
-Introduction:
-Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-return LiDAR data in accurately characterizing vegetation structure. However, we lack a comprehensive understanding of waveform data processing approaches under different topography and vegetation conditions. The objective of this paper is to highlight a novel deconvolution algorithm, the Gold algorithm, for processing waveform LiDAR data with optimal deconvolution parameters.</description>
+      <guid>/projects/creations/nlp_swivel/</guid>
+      <description>Introduction:
+Genealy, it require an amount of data to train and a long time to train a NLP model for a specific dataset. Transfer learning is commonly used in this case to conduct the sentiment analsis for Natural Language Processing (NLP) problem.
+Swivel performs approximate factorization of the point-wise mutual information matrix via stochastic gradient descent. It uses a piecewise loss with special handling for unobserved co-occurrences, and thus makes use of all the information in the matrix.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
+      <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
+      <pubDate>Sat, 11 Jan 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
+      <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?
+This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series prediction.
+Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
     </item>
     
     <item>
@@ -58,16 +79,6 @@ There are a lot of hyperparameters for machine learning models such as NN. Typic
     </item>
     
     <item>
-      <title>Ensemble models for classification (combine deep learning with machine learning)</title>
-      <link>/projects/creations/ensemble_models_classification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/ensemble_models_classification/</guid>
-      <description>Introduction:
-Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
-    </item>
-    
-    <item>
       <title>R package - waveformlidar data processing and analysis</title>
       <link>/projects/creations/waveformlidar_r_package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -76,17 +87,6 @@ Ensemble modeling is a process where multiple diverse models are created to pred
       <description>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
 Introduction:
 A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
-    </item>
-    
-    <item>
-      <title>Sentiment analysis for review classification using SWIVEL and a small datasets</title>
-      <link>/projects/creations/nlp_swivel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/nlp_swivel/</guid>
-      <description>Introduction:
-Genealy, it require an amount of data to train and a long time to train a NLP model for a specific dataset. Transfer learning is commonly used in this case to conduct the sentiment analsis for Natural Language Processing (NLP) problem.
-Swivel performs approximate factorization of the point-wise mutual information matrix via stochastic gradient descent. It uses a piecewise loss with special handling for unobserved co-occurrences, and thus makes use of all the information in the matrix.</description>
     </item>
     
     <item>

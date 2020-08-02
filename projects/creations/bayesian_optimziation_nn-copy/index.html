@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Tan Zhou | Logistic regression</title>
-  <meta property="og:title" content="Tan Zhou | Logistic regression" />
+  <title>Tan Zhou | Bayesian optimization deep learning</title>
+  <meta property="og:title" content="Tan Zhou | Bayesian optimization deep learning" />
   <meta property="og:image" content="/img/tan_zhou.jpg" />
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="To construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN.">
+  <meta property="og:description" content="To construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN." />
   <meta name="author" content="Tan Zhou">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -88,18 +88,66 @@
 
   <div class="container-fluid p-0">
     
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/bayesian_optimziation_nn-copy/">Bayesian optimization deep learning</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
   <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Bayesian optimization deep learning</span></h2>
+    <img src="/img/bo_example.png" style="max-height:300px;max-width:30%;" align="right"/>
+    <p><strong>Introduction:</strong></p>
+<p>The picture of Bayesian optimization is obtianed from <a href="https://github.com/fmfn/BayesianOptimization/tree/master/examples">here</a></p>
+<p><em><strong>Bayesian optimization</strong></em></p>
+<p>There are a lot of hyperparameters for machine learning models such as NN. Typically, random or grid search are effecient ways to conduct the optimization of models. They can be very time-consuming in some cases which waste time on unpromising areas of search space. Bayesian optimization can overcome this problem by adopting an informed seach method in the space to find the optmized parameters.</p>
+<p>Bayesian optimization works by constructing a posterior distribution of functions (gaussian process) that best describes the function you want to optimize. As the number of observations grows, the posterior distribution improves, and the algorithm becomes more certain of which regions in parameter space are worth exploring and which are not. You can find more information and explination here</p>
+<p>It&rsquo;s worthy to note that the Bayesian optimization is to find the maximum of a function. Thus, when we formulate a function and evaulation metrics, we should take this part into consideration. For example, when we used log loss to evaluate our model performance, the smaller values will be better. We should return a negative logloss to make it suitable for maximum of the defined function.</p>
+<p>Note: It took a long time to run if you have a big dataset and wide boundary. You can refer to Colab for running the code.</p>
 
-  Content tagged with  <span class="tag">Logistic regression</span>
-    <ul>
-      
-          <li>
-             <a href="/projects/creations/ensemble_models_classification/">Sentiment analysis for review classification using SWIVEL and a small datasets</a>
-         </li>
-      
-    </ul>
+    <p>Project link: <a href="https://github.com/tankwin08/Bayesian_optimization_deep_learning">https://github.com/tankwin08/Bayesian_optimization_deep_learning</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/neutral-networks">Neutral Networks</a></li>
+    
+      <li><a class="tag" href="/tags/bayesian-optimization">Bayesian optimization</a></li>
+    
+      <li><a class="tag" href="/tags/classification">Classification</a></li>
+    
+      <li><a class="tag" href="/tags/architecture-optimization">Architecture Optimization</a></li>
+    
+</ul>
+
   </div>
 </section>
 

@@ -36,6 +36,18 @@ Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-
     
     <item>
       <title>Bayesian optimization deep learning</title>
+      <link>/projects/creations/bayesian_optimziation_nn-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/bayesian_optimziation_nn-copy/</guid>
+      <description>Introduction:
+The picture of Bayesian optimization is obtianed from here
+Bayesian optimization
+There are a lot of hyperparameters for machine learning models such as NN. Typically, random or grid search are effecient ways to conduct the optimization of models. They can be very time-consuming in some cases which waste time on unpromising areas of search space. Bayesian optimization can overcome this problem by adopting an informed seach method in the space to find the optmized parameters.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian optimization deep learning</title>
       <link>/projects/creations/bayesian_optimziation_nn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -47,16 +59,6 @@ There are a lot of hyperparameters for machine learning models such as NN. Typic
     </item>
     
     <item>
-      <title>Ensemble modelling for classification (machine learning and deep learning)</title>
-      <link>/projects/creations/ensemble_models_classification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/ensemble_models_classification/</guid>
-      <description>Introduction:
-Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
-    </item>
-    
-    <item>
       <title>R package - waveformlidar data processing and analysis</title>
       <link>/projects/creations/waveformlidar_r_package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,6 +67,17 @@ Ensemble modeling is a process where multiple diverse models are created to pred
       <description>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
 Introduction:
 A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis for review classification using SWIVEL and a small datasets</title>
+      <link>/projects/creations/ensemble_models_classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/ensemble_models_classification/</guid>
+      <description>Introduction:
+Genealy, it require an amount of data to train and a long time to train a NLP model for a specific dataset. Transfer learning is commonly used in this case to conduct the sentiment analsis for Natural Language Processing (NLP) problem.
+Swivel performs approximate factorization of the point-wise mutual information matrix via stochastic gradient descent. It uses a piecewise loss with special handling for unobserved co-occurrences, and thus makes use of all the information in the matrix.</description>
     </item>
     
     <item>

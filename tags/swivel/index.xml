@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SWIVEL on Tan Zhou</title>
+    <link>/tags/swivel/</link>
+    <description>Recent content in SWIVEL on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/swivel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sentiment analysis for review classification using SWIVEL and a small datasets</title>
+      <link>/projects/creations/ensemble_models_classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/ensemble_models_classification/</guid>
+      <description>Introduction:
+Genealy, it require an amount of data to train and a long time to train a NLP model for a specific dataset. Transfer learning is commonly used in this case to conduct the sentiment analsis for Natural Language Processing (NLP) problem.
+Swivel performs approximate factorization of the point-wise mutual information matrix via stochastic gradient descent. It uses a piecewise loss with special handling for unobserved co-occurrences, and thus makes use of all the information in the matrix.</description>
+    </item>
+    
+  </channel>
+</rss>

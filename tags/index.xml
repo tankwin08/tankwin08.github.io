@@ -273,7 +273,7 @@
     </item>
     
     <item>
-      <title>Deconvolution</title>
+      <title>deconvolution</title>
       <link>/tags/deconvolution/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -741,38 +741,11 @@
     </item>
     
     <item>
-      <title>Cross validation</title>
-      <link>/tags/cross-validation/</link>
+      <title>Embedding layer</title>
+      <link>/tags/embedding-layer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cross-validation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ensemble modeling</title>
-      <link>/tags/ensemble-modeling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ensemble-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Logistic regression</title>
-      <link>/tags/logistic-regression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/logistic-regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
+      <guid>/tags/embedding-layer/</guid>
       <description></description>
     </item>
     
@@ -782,6 +755,33 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/neutral-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>/tags/nlp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIVEL</title>
+      <link>/tags/swivel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/swivel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer learning</title>
+      <link>/tags/transfer-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/transfer-learning/</guid>
       <description></description>
     </item>
     

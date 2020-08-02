@@ -354,7 +354,7 @@
     </item>
     
     <item>
-      <title>Photon counting LiDAR</title>
+      <title>Photon counting lidar</title>
       <link>/tags/photon-counting-lidar/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -723,6 +723,15 @@
     </item>
     
     <item>
+      <title>Autoencoder</title>
+      <link>/tags/autoencoder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/autoencoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bayesian optimization</title>
       <link>/tags/bayesian-optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -732,11 +741,29 @@
     </item>
     
     <item>
+      <title>Bayesian Uncertainty</title>
+      <link>/tags/bayesian-uncertainty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Classification</title>
       <link>/tags/classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropout</title>
+      <link>/tags/dropout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dropout/</guid>
       <description></description>
     </item>
     
@@ -759,11 +786,38 @@
     </item>
     
     <item>
+      <title>Inherent noise</title>
+      <link>/tags/inherent-noise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inherent-noise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTM</title>
+      <link>/tags/lstm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine learning</title>
       <link>/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model misspecification</title>
+      <link>/tags/model-misspecification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-misspecification/</guid>
       <description></description>
     </item>
     

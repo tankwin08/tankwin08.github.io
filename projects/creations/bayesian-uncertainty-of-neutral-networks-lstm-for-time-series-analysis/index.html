@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tan Zhou | Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
+  <meta property="og:title" content="Tan Zhou | Bayesian Uncertainty for EVI prediction using LSTM and autoencoder" />
+  <meta property="og:image" content="/img/tan_zhou.jpg" />
+  <meta name="description" content="To construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN.">
+  <meta property="og:description" content="To construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN." />
+  <meta name="author" content="Tan Zhou">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
+  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Tan Zhou</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/tan_zhou.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/">Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</span></h2>
+    <img src="/img/uncertianty_lstm_AUTOENCODER.png" style="max-height:300px;max-width:30%;" align="right"/>
+    <h1 id="introduction">Introduction</h1>
+<h2 id="bayesian-nn">Bayesian NN</h2>
+<p>How much confidence do you know about your model results or a paritcular prediction?</p>
+<p>This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business 
+have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series <a href="https://eng.uber.com/neural-networks-uncertainty-estimation/">prediction</a>.</p>
+<p>Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</p>
+<p>Bayesian probability theory offers us mathematically grounded tools to reason about model uncertainty, but these usually come with a prohibitive computational cost [2].</p>
+<p>In deep learning, there are two kinds of strategries to quantify the uncertianty: (1) MC dropout and (2) variational inference.</p>
+<p>(1) Regarding <strong>MC dropout</strong>, Gal developed a framework casting dropout training in deep neural networks (NNs) as approximate Bayesian inference in deep Gaussian processes. This method can mitigates the problem of representing model uncertainty
+in deep learning without sacrificing either computational complexity or test accuracy.</p>
+<p>(2)<strong>Variational inference</strong> such as sampling-based variational inference and stochastic variational inference has been applied to deep learning models, which have performed as well as dropout.
+However, this approach comes with a prohibitive computational cost. To represent uncertainty, the number of parameters in these appraoches is doubled for the same network size. 
+Further, they require more time to converge and do not improve on existing techniques. Given that good uncertainty estimates can be cheaply obtained from common dropout models, 
+this might result in unnecessary additional computation.</p>
+<p>what is variational inference? In short, variational inference is an approach of approximating model posterior which would otherwise be difficult to work with directly.
+Intuitively, this is a measure of similarity between the two distributions although it is not symmetric. So minimising this objective fits our approximating distribution 
+to the distribution we care about.</p>
+<p>This is standard in variational inference where we fit distributions rather than parameters, resulting in our robustness to over-fitting.</p>
+<h2 id="how-dropout-to-represent-bayesian-approximation">How dropout to represent Bayesian approximation</h2>
+<p>Compared to standard NN, the BNN added a binary vector in each layer. 
+We sample new realisations for the binary vectors <strong>bi</strong> for every input point and every forward pass thorough 
+the model (evaluating the model&rsquo;s output), and use the same values in the backward pass (propagating the derivatives to the parameters to be optimised W1,W2,b). 
+The elements of vector bi take value 1 with probability 0≤pi≤1 for i=1,2&hellip;l. i is the ith layer.</p>
+<p>The dropped weights b1W1 and b2W2 are often scaled by 1/pi to maintain constant output magnitude. At test time we do not sample any variables and simply use 
+the full weights matrices W1,W2,b.</p>
+<p>Actually, the dropout network is similar to a Gaussian process approximation. 
+Different network structures and different non-linearities would correspond to different prior beliefs as to what we expect our uncertainty to look like. 
+This property is shared with the Gaussian process as well. Different Gaussian process covariance functions would result in different uncertainty estimates.
+If you are interested in more details on the BNN. Please refer to [here]（http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html） - Why Does It Even Make Sense?</p>
+<h2 id="calculating-prediction-uncertainty-with-bnns-developed-by-uber">Calculating prediction uncertainty with BNNs developed by Uber</h2>
+<p>The variance quantifies the prediction uncertainty, which can be broken down using the law of total variance.
+An underlying assumption for the model uncertainty equation is that yhat is generated by the same procedure, but this is not always the case. In anomaly detection, for instance, 
+it is expected that certain time series will have patterns that differ greatly from the trained model. 
+Therefore, reseachers from Uber propose that a complete measurement of prediction uncertainty should be composed of <strong>three parts</strong>:</p>
+<p>1 model uncertainty</p>
+<p>2 model misspecification</p>
+<p>3 inherent noise level.</p>
+<h3 id="1-model-uncertainty">1 Model Uncertainty</h3>
+<p>Model uncertainty, also referred to as epistemic uncertainty, captures our ignorance of the model parameters and can be reduced as more samples are collected. 
+The key to estimating model uncertainty is the posterior distribution , also referred to as Bayesian inference. 
+This is particularly challenging in neural networks because of the non-conjugacy often caused by nonlinearities.</p>
+<p>Here we used Monte Carlo dropout to approximate model uncertainty.</p>
+<h3 id="2-model-misspecification">2 Model misspecification</h3>
+<p>Model misspecification captures the scenario where testing samples come from a different population than the training set, which is often the case in time series anomaly detection. 
+Similar concepts have gained attention in deep learning under the concept of adversarial examples in computer vision, but its implication in prediction uncertainty remains relatively unexplored</p>
+<p>Here we first fit a latent embedding space for all training time series using an encoder-decoder framework. 
+From there, we are able to measure the distance between test cases and training samples in the embedded space.</p>
+<p>After estimating uncertaitny from model misspecification, we combined model uncertianty with model misspecification uncertianty by connecting the encoder-decoder network with a prediction network, and treat them as one large network during inference.</p>
+<h3 id="3-inherent-noise">3 Inherent noise</h3>
+<p>Inherent noise is mainly to capture the uncertainty in the data generation process and which is irreducible. 
+Uber reseachers propose a simple but adaptive approach by estimating the noise level via the residual sum of squares, evaluated on an independent held-out validation set.</p>
+<p>If you are interested in technical parts on these three sections, you can go to <a href="https://eng.uber.com/neural-networks-uncertainty-estimation/">here</a> for more details.</p>
+
+    <p>Project link: <a href="https://github.com/tankwin08/Bayesian_uncertainty_LSTM">https://github.com/tankwin08/Bayesian_uncertainty_LSTM</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/lstm">LSTM</a></li>
+    
+      <li><a class="tag" href="/tags/bayesian-uncertainty">Bayesian Uncertainty</a></li>
+    
+      <li><a class="tag" href="/tags/autoencoder">Autoencoder</a></li>
+    
+      <li><a class="tag" href="/tags/dropout">Dropout</a></li>
+    
+      <li><a class="tag" href="/tags/model-misspecification">Model misspecification</a></li>
+    
+      <li><a class="tag" href="/tags/inherent-noise">Inherent noise</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+  
+
+  
+</body>
+</html>

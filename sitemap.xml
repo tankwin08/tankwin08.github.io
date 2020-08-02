@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>/projects/creations/ensemble_models_classification/</loc>
     <priority>0.8</priority>
   </url>
@@ -543,11 +548,23 @@
   </url>
   
   <url>
+    <loc>/tags/autoencoder/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/bayesian-optimization/</loc>
   </url>
   
   <url>
+    <loc>/tags/bayesian-uncertainty/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/classification/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/dropout/</loc>
   </url>
   
   <url>
@@ -559,7 +576,19 @@
   </url>
   
   <url>
+    <loc>/tags/inherent-noise/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/lstm/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/machine-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/model-misspecification/</loc>
   </url>
   
   <url>

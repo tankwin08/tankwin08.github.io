@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model misspecification on Tan Zhou</title>
+    <link>/tags/model-misspecification/</link>
+    <description>Recent content in Model misspecification on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/model-misspecification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
+      <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
+      <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?
+This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series prediction.
+Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
+    </item>
+    
+  </channel>
+</rss>

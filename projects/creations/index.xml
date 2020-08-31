@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Fraud detection using ML and PySpark framework</title>
+      <link>/projects/creations/pyspark_ml_fraud_detection/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/pyspark_ml_fraud_detection/</guid>
+      <description>Introduction The image on the right was obtained from here.
+There is a lack of public available datasets on financial services and specially in the emerging mobile money transactions domain. Financial datasets are important to many researchers and in particular to us performing research in the domain of fraud detection. Part of the problem is the intrinsically private nature of financial transactions, that leads to no publicly available datasets.
+A synthetic dataset were generated using the simulator called PaySim.</description>
+    </item>
+    
+    <item>
       <title>Bayesian Uncertainty for EVI prediction using LSTM and autoencoder</title>
       <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>

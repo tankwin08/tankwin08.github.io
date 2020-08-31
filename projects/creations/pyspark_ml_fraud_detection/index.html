@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Tan Zhou | Deconvolution</title>
-  <meta property="og:title" content="Tan Zhou | Deconvolution" />
+  <title>Tan Zhou | Fraud detection using ML and PySpark framework</title>
+  <meta property="og:title" content="Tan Zhou | Fraud detection using ML and PySpark framework" />
   <meta property="og:image" content="/img/tan_zhou.jpg" />
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="To develop a generalized model to deal with big and imblance data prediction that suitable for real-time fraud detection at the PySpark framework">
+  <meta property="og:description" content="To develop a generalized model to deal with big and imblance data prediction that suitable for real-time fraud detection at the PySpark framework" />
   <meta name="author" content="Tan Zhou">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -88,22 +88,84 @@
 
   <div class="container-fluid p-0">
     
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/pyspark_ml_fraud_detection/">Fraud detection using ML and PySpark framework</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
   <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Fraud detection using ML and PySpark framework</span></h2>
+    <img src="/img/fraud_detection.jpeg" style="max-height:300px;max-width:30%;" align="right"/>
+    <h1 id="introduction">Introduction</h1>
+<p>The image on the right was obtained from <a href="https://www.slideshare.net/HadoopSummit/big-data-application-architectures-fraud-detection">here</a>.</p>
+<p>There is a lack of public available datasets on financial services and specially in the emerging mobile money transactions domain. 
+Financial datasets are important to many researchers and in particular to us performing research in the domain of fraud detection. 
+Part of the problem is the intrinsically private nature of financial transactions, that leads to no publicly available datasets.</p>
+<p>A synthetic dataset were generated using the simulator called PaySim. PaySim uses aggregated data from the private dataset to generate
+a synthetic dataset that resembles the normal operation of transactions and injects malicious behaviour to later evaluate 
+the performance of fraud detection methods.</p>
+<h2 id="data-cleaning-and-understanding">Data cleaning and understanding</h2>
+<p>The data is big and we did a comprehensive data exploration on the data to find the pattern existed in the data. For example, to investigate which types of
+transactions are more likely to the fraud.</p>
+<p>In addition, the data is always noisy inherently and how to identify them is also crucial for building a generalized model.</p>
+<p>In this project, the feature enginering have been used for outlier detection.</p>
+<h2 id="hyperparameter-tunning-in-pyspark">Hyperparameter tunning in PySpark</h2>
+<p>The hyperparamters are critical to build a robust and high performing models. Generally, this step is one of trickiest part of ML pipeline.
+The goal of hyperparameter tuning is to optimize the model and achieve a better model performance.
+The most common approaches including grid search and random search to do hyperparameter tuning in PySpark is the same as we did in a typical-classical machine learning pipeline (scikit learn).</p>
+<p>To avoid the overfitting issue, different data split strategies and cross validation were also used. The users can chose which way they prefer to conduct
+a similar study or explore both and to see which way can give a better solutions.</p>
+<h2 id="references">References</h2>
+<p><a href="https://spark.apache.org/docs/latest/ml-tuning.html">PySpark ML Tuning: model selection and hyperparameter tuning</a>.</p>
 
-  Content tagged with  <span class="tag">Deconvolution</span>
-    <ul>
-      
-          <li>
-             <a href="/publications/waveformlidar_r_package/">waveformlidar: An R Package for Waveform LiDAR Processing and Analysis</a>
-         </li>
-      
-          <li>
-             <a href="/publications/gold/">Gold-A novel deconvolution algorithm with optimization for waveform LiDAR processing</a>
-         </li>
-      
-    </ul>
+    <p>Project link: <a href="https://github.com/tankwin08/PySpark_Fraud_detection_ML">https://github.com/tankwin08/PySpark_Fraud_detection_ML</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/big-data">big data</a></li>
+    
+      <li><a class="tag" href="/tags/ml">ML</a></li>
+    
+      <li><a class="tag" href="/tags/hyperparameter-tunning">Hyperparameter tunning</a></li>
+    
+      <li><a class="tag" href="/tags/pyspark">PySpark</a></li>
+    
+      <li><a class="tag" href="/tags/fraud-detection">Fraud detection</a></li>
+    
+      <li><a class="tag" href="/tags/imblanced-data">Imblanced data</a></li>
+    
+</ul>
+
   </div>
 </section>
 

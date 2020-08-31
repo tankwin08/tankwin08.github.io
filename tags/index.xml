@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>big data</title>
+      <link>/tags/big-data/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fraud detection</title>
+      <link>/tags/fraud-detection/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/fraud-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hyperparameter tunning</title>
+      <link>/tags/hyperparameter-tunning/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/hyperparameter-tunning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imblanced data</title>
+      <link>/tags/imblanced-data/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/imblanced-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>/tags/ml/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PySpark</title>
+      <link>/tags/pyspark/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/pyspark/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Autoencoder</title>
@@ -390,7 +444,7 @@
     </item>
     
     <item>
-      <title>deconvolution</title>
+      <title>Deconvolution</title>
       <link>/tags/deconvolution/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       

@@ -21,6 +21,12 @@
   </url>
   
   <url>
+    <loc>/projects/creations/pyspark_ml_fraud_detection/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</loc>
     <lastmod>2020-07-11T12:41:05-05:00</lastmod>
     <priority>0.8</priority>
@@ -120,6 +126,47 @@
   </url>
   
   <url>
+    <loc>/tags/big-data/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fraud-detection/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hyperparameter-tunning/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/imblanced-data/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ml/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pyspark/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/autoencoder/</loc>
     <lastmod>2020-07-11T12:41:05-05:00</lastmod>
   </url>
@@ -135,12 +182,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
-    <priority>1</priority>
-  </url>
-  
-  <url>
     <loc>/tags/inherent-noise/</loc>
     <lastmod>2020-07-11T12:41:05-05:00</lastmod>
   </url>
@@ -152,11 +193,6 @@
   
   <url>
     <loc>/tags/model-misspecification/</loc>
-    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-07-11T12:41:05-05:00</lastmod>
   </url>
   

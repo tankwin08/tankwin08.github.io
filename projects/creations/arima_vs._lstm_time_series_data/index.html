@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tan Zhou | Time series analysis using ARIMA &amp; LSTM - MODIS</title>
+  <meta property="og:title" content="Tan Zhou | Time series analysis using ARIMA &amp; LSTM - MODIS" />
+  <meta property="og:image" content="/img/tan_zhou.jpg" />
+  <meta name="description" content="To investigate the trend and pattern of time seriese data (MODIS data) using the Autoregressive Integrated Moving Averages (ARIMA) and Long Short Term Memory (LSTM) networks and further to check if we can use the current model to predict further values of target variables.">
+  <meta property="og:description" content="To investigate the trend and pattern of time seriese data (MODIS data) using the Autoregressive Integrated Moving Averages (ARIMA) and Long Short Term Memory (LSTM) networks and further to check if we can use the current model to predict further values of target variables." />
+  <meta name="author" content="Tan Zhou">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
+  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Tan Zhou</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/tan_zhou.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/arima_vs._lstm_time_series_data/">Time series analysis using ARIMA &amp; LSTM - MODIS</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Time series analysis using ARIMA &amp; LSTM - MODIS</span></h2>
+    <img src="/img/time_series_NDVI_seasonal_ARIMA.PNG" style="max-height:300px;max-width:30%;" align="right"/>
+    <h1 id="introduction">Introduction</h1>
+<h3 id="arima">ARIMA</h3>
+<p>ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &hellip;) and also predict furhter values.</p>
+<p>ARIMA analysis will focus on the logic of model and how to select the three important terms of the model: <strong>p</strong> is the order of the AR term,</p>
+<p><strong>q</strong> is the order of the MA term, <strong>d</strong> is the number of differencing required to make the time series stationary. You can go to [here](<a href="https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/">https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/</a>） for 
+detailed explaination of ARIMA.</p>
+<p>The first step of the model is to make the time series data stationary.</p>
+<p><em><strong>Stationarity</strong></em></p>
+<p><em><strong>what is <a href="https://www.kaggle.com/sumi25/understand-arima-and-tune-p-d-q">stationary?</a></strong></em></p>
+<p><strong>1</strong> The mean of the series should not be a function of time.</p>
+<p><strong>2</strong> The variance of the series should not be a function of time. This property is known as homoscedasticity.</p>
+<p><strong>3</strong> the covariance of the i th term and the (i + m) th term should not be a function of time</p>
+<p><em><strong>why the data need to be stationary?</strong></em></p>
+<p>Because, term ‘Auto Regressive’ in ARIMA means it is a linear regression model that uses its own lags as predictors.</p>
+<p>When running a linear regression the assumption is that all of the observations are all independent of each other.
+In a time series, however, we know that observations are time dependent. 
+It turns out that a lot of nice results that hold for independent random variables (law of large numbers and central limit theorem to name a couple) hold for stationary random variables. 
+So by making the data stationary, we can actually apply regression techniques to this time dependent variable.</p>
+<p><em><strong>How to check Stationarity?</strong></em></p>
+<p>An <a href="https://www.statisticshowto.com/adf-augmented-dickey-fuller-test/">augmented Dickey–Fuller test (ADF)</a> tests the null hypothesis that 
+a unit root is present in a time series sample. The alternative hypothesis is different depending on which version of the test is used, but is usually stationarity or trend-stationarity.</p>
+<p>Basically, we are trying to whether to accept the Null Hypothesis H0 (that the time series has a unit root, indicating it is non-stationary) or reject H0 and go with the Alternative Hypothesis (that the time series has no unit root and is stationary).</p>
+<p>We end up deciding this based on the p-value return.</p>
+<pre><code>    •A small p-value (typically ≤ 0.05) indicates strong evidence against the null hypothesis, so you reject the null hypothesis.
+
+    •A large p-value (&gt; 0.05) indicates weak evidence against the null hypothesis, so you fail to reject the null hypothesis.
+</code></pre>
+<p><em><strong>Parameters of ARIMA</strong></em></p>
+<p><em><strong>How to make data stationary and determine d?</strong></em></p>
+<p>The most common way is to difference it by substracting the previous values from the current values. This is also how to determine the d.</p>
+<p>If d = 0, the input data of the model will be original data. If d = 1, it means we need to use the first difference of the time seriese.</p>
+<p><em><strong>Next, what are the ‘p’ and ‘q’ terms?</strong></em></p>
+<p>‘p’ is the order of the ‘Auto Regressive’ (AR) term. It refers to the number of lags of Y to be used as predictors. 
+And ‘q’ is the order of the ‘Moving Average’ (MA) term. It refers to the number of lagged forecast errors that should go into the ARIMA Model.</p>
+<p><em><strong>How to determine <a href="https://people.duke.edu/~rnau/411arim3.htm">p and q?</a></strong></em></p>
+<ul>
+<li>
+<p>Identification of an AR model is often best done with inspecting the Partial Autocorrelation (PACF) plot.</p>
+<ul>
+<li>For an AR model, the theoretical PACF “shuts off” past the order of the model.  The phrase “shuts off” means that in theory 
+the partial autocorrelations are equal to 0 beyond that point.  Put another way, the number of non-zero partial autocorrelations gives the order of the AR model.  By the “order of the model” we mean the most extreme lag of x that is used as a predictor.</li>
+</ul>
+<p><strong>how to determine p</strong>:
+In particular, the partial autocorrelation at lag k is equal to the estimated AR(k) coefficient in an autoregressive model with k terms&ndash;i.e., a multiple regression model in which Y is regressed on LAG(Y,1), LAG(Y,2), etc., up to LAG(Y,k). Thus, by mere inspection of the PACF you can determine how many AR terms you need to use to explain the autocorrelation pattern in a time series: if the partial autocorrelation is significant at lag k and not significant
+at any higher order lags&ndash;i.e., if the PACF &ldquo;cuts off&rdquo; at lag k&ndash;then this suggests that you should try fitting an autoregressive model of order k</p>
+</li>
+<li>
+<p>Identification of an MA model is often best done with the ACF rather than the PACF.</p>
+<ul>
+<li>For an MA model, the theoretical PACF does not shut off, but instead tapers toward 0 in some manner.  A clearer pattern for an MA model is in the ACF.  The ACF will have non-zero autocorrelations only at lags involved in the model.</li>
+</ul>
+<p><strong>how to determine q</strong>: to see first negative values of ACF plot&rsquo;s corresponding x-axis (lag) value</p>
+</li>
+</ul>
+<p><em><strong>Note:</strong></em>  The sole reliance on the ACF and PACF to determine the p and q is <strong>NOT</strong> always correct. These plots just can help you understnad the ARIMA model and justify whether you can get a better model or worse one. 
+Just try the simple model first and find a better model using AIC through multiple time exploration.</p>
+
+    <p>Project link: <a href="https://github.com/tankwin08/time_series_MODIS_ARIMA_LSTM">https://github.com/tankwin08/time_series_MODIS_ARIMA_LSTM</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/time-series">Time series</a></li>
+    
+      <li><a class="tag" href="/tags/arima">ARIMA</a></li>
+    
+      <li><a class="tag" href="/tags/seasonal-arima">Seasonal ARIMA</a></li>
+    
+      <li><a class="tag" href="/tags/stationary">Stationary</a></li>
+    
+      <li><a class="tag" href="/tags/lstm">LSTM</a></li>
+    
+      <li><a class="tag" href="/tags/risk-prediction">RISK prediction</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+  
+
+  
+</body>
+</html>

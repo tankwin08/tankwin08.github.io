@@ -33,6 +33,12 @@
   </url>
   
   <url>
+    <loc>/projects/creations/arima_vs._lstm_time_series_data/</loc>
+    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>/projects/creations/nlp_swivel/</loc>
     <lastmod>2020-06-01T12:41:05-05:00</lastmod>
     <priority>0.8</priority>
@@ -167,6 +173,11 @@
   </url>
   
   <url>
+    <loc>/tags/arima/</loc>
+    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/autoencoder/</loc>
     <lastmod>2020-07-11T12:41:05-05:00</lastmod>
   </url>
@@ -193,6 +204,26 @@
   
   <url>
     <loc>/tags/model-misspecification/</loc>
+    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/risk-prediction/</loc>
+    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/seasonal-arima/</loc>
+    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/stationary/</loc>
+    <lastmod>2020-07-11T12:41:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/time-series/</loc>
     <lastmod>2020-07-11T12:41:05-05:00</lastmod>
   </url>
   

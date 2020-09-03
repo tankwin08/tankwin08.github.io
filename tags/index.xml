@@ -66,6 +66,15 @@
     </item>
     
     <item>
+      <title>ARIMA</title>
+      <link>/tags/arima/</link>
+      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/arima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Autoencoder</title>
       <link>/tags/autoencoder/</link>
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
@@ -116,6 +125,42 @@
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/model-misspecification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RISK prediction</title>
+      <link>/tags/risk-prediction/</link>
+      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/risk-prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seasonal ARIMA</title>
+      <link>/tags/seasonal-arima/</link>
+      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/seasonal-arima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stationary</title>
+      <link>/tags/stationary/</link>
+      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/stationary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time series</title>
+      <link>/tags/time-series/</link>
+      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/time-series/</guid>
       <description></description>
     </item>
     
@@ -525,7 +570,7 @@
     </item>
     
     <item>
-      <title>Photon counting LiDAR</title>
+      <title>Photon counting lidar</title>
       <link>/tags/photon-counting-lidar/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       

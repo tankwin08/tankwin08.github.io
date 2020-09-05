@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sentiment analysis on Tan Zhou</title>
+    <link>/tags/sentiment-analysis/</link>
+    <description>Recent content in Sentiment analysis on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2020 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sentimental analysis of reviewers&#39; feedback using BERT vs. Machien learning</title>
+      <link>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</guid>
+      <description>Introduction Sentimental analysis of reviewers&amp;rsquo; feedback using BERT vs. Machine learning Note: Retraining the BERT model took a long time using a local computer, to run in the Google Colab will be a good choice
+Objectives To predict sentiment (postive, neutral, negeative) of customer feedback using tweet texts of differnt airline companies and compare different models&amp;rsquo;performace on text classification.
+Specifically, multiple machine learing models such as KNN, Random forest and SVC have been used for conduct classification as a baseline.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis for review classification using SWIVEL and a small datasets</title>
+      <link>/projects/creations/nlp_swivel/</link>
+      <pubDate>Mon, 01 Jun 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/nlp_swivel/</guid>
+      <description>Introduction:
+Genealy, it require an amount of data to train and a long time to train a NLP model for a specific dataset. Transfer learning is commonly used in this case to conduct the sentiment analsis for Natural Language Processing (NLP) problem.
+Swivel performs approximate factorization of the point-wise mutual information matrix via stochastic gradient descent. It uses a piecewise loss with special handling for unobserved co-occurrences, and thus makes use of all the information in the matrix.</description>
+    </item>
+    
+  </channel>
+</rss>

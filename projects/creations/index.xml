@@ -12,6 +12,29 @@
     
     
     <item>
+      <title>Sentimental analysis of reviewers&#39; feedback using BERT vs. Machien learning</title>
+      <link>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</guid>
+      <description>Introduction Sentimental analysis of reviewers&amp;rsquo; feedback using BERT vs. Machine learning Note: Retraining the BERT model took a long time using a local computer, to run in the Google Colab will be a good choice
+Objectives To predict sentiment (postive, neutral, negeative) of customer feedback using tweet texts of differnt airline companies and compare different models&amp;rsquo;performace on text classification.
+Specifically, multiple machine learing models such as KNN, Random forest and SVC have been used for conduct classification as a baseline.</description>
+    </item>
+    
+    <item>
+      <title>Enhanced fraud detection using ML and PySpark framework with feature selection</title>
+      <link>/projects/creations/enhanced_pyspark_ml_fraud_detection_feature_selection/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/enhanced_pyspark_ml_fraud_detection_feature_selection/</guid>
+      <description>Introduction Goal To examplify the feature selection strategy in PySpark and furhter enhanc the pyspark pipeline&amp;rsquo;s performance on fraud detection.
+In this project, I will continue to work on the data from the project fradu_detection_ML_PySpark. The data exploration will be same, and the feature selction will use input perturbation strtegry instead of PCA as I did in the previous project.
+Why feature selection? 1. Curse of dimensionality — Overfitting
+The common theme of the problems is that when the dimensionality increases, the volume of the space increases so fast that the available data become sparse.</description>
+    </item>
+    
+    <item>
       <title>Fraud detection using ML and PySpark framework</title>
       <link>/projects/creations/pyspark_ml_fraud_detection/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
@@ -39,7 +62,7 @@ Standard deep learning method such as LSTM do not capture model uncertianty. How
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/arima_vs._lstm_time_series_data/</guid>
-      <description>Introduction ARIMA ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &amp;hellip;) and also predict furhter values.
+      <description>Introduction ARIMA (Autoregressive integrated moving average) ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &amp;hellip;) and also predict furhter values.
 ARIMA analysis will focus on the logic of model and how to select the three important terms of the model: p is the order of the AR term,
 q is the order of the MA term, d is the number of differencing required to make the time series stationary.</description>
     </item>

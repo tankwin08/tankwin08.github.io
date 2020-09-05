@@ -6,7 +6,7 @@
     <description>Recent content in Adaptive Gaussian on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Feb 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/adaptive-gaussian/index.xml" rel="self" type="application/rss+xml" />
     
@@ -43,6 +43,16 @@ A wealth of Full Waveform (FW) LiDAR data are available to the public from diffe
 Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
 Introduction:
 Waveform Light Detection and Ranging (LiDAR) data have advantages over discrete-return LiDAR data in accurately characterizing vegetation structure. However, we lack a comprehensive understanding of waveform data processing approaches under different topography and vegetation conditions. The objective of this paper is to highlight a novel deconvolution algorithm, the Gold algorithm, for processing waveform LiDAR data with optimal deconvolution parameters.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian decompostion of waveform lidar and uncertaitny analysis</title>
+      <link>/projects/creations/bayesian_decompostion/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian_decompostion/</guid>
+      <description>The subsquent section is mainly to show how to quantify the uncertaity of waveform processing uinsg Bayesian method. The detailed description of the approach can refer to https://www.researchgate.net/publication/319018940_Bayesian_decomposition_of_full_waveform_LiDAR_data_with_uncertainty_analysis
+In the domain of LiDAR applications, the observations or data are inherently subject to various errors such as system setting, system calibration, and range measurement errors. Additionally, the LiDAR vendors often do not clearly state what errors are considered when the data are provided.</description>
     </item>
     
   </channel>

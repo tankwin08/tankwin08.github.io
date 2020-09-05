@@ -22,5 +22,15 @@ This is a critical important question for many business. With the advent of deep
 Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
     </item>
     
+    <item>
+      <title>Bayesian decompostion of waveform lidar and uncertaitny analysis</title>
+      <link>/projects/creations/bayesian_decompostion/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian_decompostion/</guid>
+      <description>The subsquent section is mainly to show how to quantify the uncertaity of waveform processing uinsg Bayesian method. The detailed description of the approach can refer to https://www.researchgate.net/publication/319018940_Bayesian_decomposition_of_full_waveform_LiDAR_data_with_uncertainty_analysis
+In the domain of LiDAR applications, the observations or data are inherently subject to various errors such as system setting, system calibration, and range measurement errors. Additionally, the LiDAR vendors often do not clearly state what errors are considered when the data are provided.</description>
+    </item>
+    
   </channel>
 </rss>

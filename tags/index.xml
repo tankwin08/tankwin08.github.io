@@ -6,17 +6,80 @@
     <description>Recent content in Tags on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>big data</title>
+      <title>BERT</title>
+      <link>/tags/bert/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>/tags/nlp/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment analysis</title>
+      <link>/tags/sentiment-analysis/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TFIDF</title>
+      <link>/tags/tfidf/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/tfidf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer learning</title>
+      <link>/tags/transfer-learning/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big data</title>
       <link>/tags/big-data/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature importance</title>
+      <link>/tags/feature-importance/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/feature-importance/</guid>
       <description></description>
     </item>
     
@@ -53,6 +116,15 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pipeline</title>
+      <link>/tags/pipeline/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/pipeline/</guid>
       <description></description>
     </item>
     
@@ -174,15 +246,6 @@
     </item>
     
     <item>
-      <title>NLP</title>
-      <link>/tags/nlp/</link>
-      <pubDate>Mon, 01 Jun 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SWIVEL</title>
       <link>/tags/swivel/</link>
       <pubDate>Mon, 01 Jun 2020 12:41:05 -0500</pubDate>
@@ -192,20 +255,20 @@
     </item>
     
     <item>
-      <title>Transfer learning</title>
-      <link>/tags/transfer-learning/</link>
-      <pubDate>Mon, 01 Jun 2020 12:41:05 -0500</pubDate>
+      <title>Adaptive Gaussian</title>
+      <link>/tags/adaptive-gaussian/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/transfer-learning/</guid>
+      <guid>/tags/adaptive-gaussian/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bayesian</title>
-      <link>/tags/bayesian/</link>
+      <title>Bayesian decomposition</title>
+      <link>/tags/bayesian-decomposition/</link>
       <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/bayesian/</guid>
+      <guid>/tags/bayesian-decomposition/</guid>
       <description></description>
     </item>
     
@@ -219,11 +282,11 @@
     </item>
     
     <item>
-      <title>Uncertainty</title>
-      <link>/tags/uncertainty/</link>
+      <title>Gaussian</title>
+      <link>/tags/gaussian/</link>
       <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
       
-      <guid>/tags/uncertainty/</guid>
+      <guid>/tags/gaussian/</guid>
       <description></description>
     </item>
     
@@ -246,20 +309,29 @@
     </item>
     
     <item>
+      <title>Weibull</title>
+      <link>/tags/weibull/</link>
+      <pubDate>Sat, 15 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/weibull/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ensemble models</title>
       <link>/tags/ensemble-models/</link>
       <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/ensemble-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -282,29 +354,11 @@
     </item>
     
     <item>
-      <title>Adaptive Gaussian</title>
-      <link>/tags/adaptive-gaussian/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/adaptive-gaussian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Decompostion and deconvolution</title>
       <link>/tags/decompostion-and-deconvolution/</link>
       <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/decompostion-and-deconvolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaussian</title>
-      <link>/tags/gaussian/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/gaussian/</guid>
       <description></description>
     </item>
     
@@ -345,15 +399,6 @@
     </item>
     
     <item>
-      <title>Weibull</title>
-      <link>/tags/weibull/</link>
-      <pubDate>Tue, 11 Feb 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/weibull/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>automation</title>
       <link>/tags/automation/</link>
       <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
@@ -368,15 +413,6 @@
       <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/counting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -818,6 +854,15 @@
       <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/tree-canopy-height/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty</title>
+      <link>/tags/uncertainty/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/uncertainty/</guid>
       <description></description>
     </item>
     

@@ -12,12 +12,23 @@
     
     
     <item>
+      <title>Bayesian Uncertainty for time series data (EVI) prediction using LSTM and autoencoder</title>
+      <link>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</link>
+      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/bayesian-uncertainty-of-neutral-networks-lstm-for-time-series-analysis/</guid>
+      <description>Introduction Bayesian NN How much confidence do you know about your model results or a paritcular prediction?
+This is a critical important question for many business. With the advent of deep learning, many forecasting problems for business have been solved in innovative ways. For example, Uber researchers has provided a fascianting paper on time series prediction.
+Standard deep learning method such as LSTM do not capture model uncertianty. However, the uncertianty estimation is indispensable for deep learning models.</description>
+    </item>
+    
+    <item>
       <title>Time series analysis using ARIMA &amp; LSTM - MODIS</title>
       <link>/projects/creations/arima_vs._lstm_time_series_data/</link>
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/arima_vs._lstm_time_series_data/</guid>
-      <description>Introduction ARIMA ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &amp;hellip;) and also predict furhter values.
+      <description>Introduction ARIMA (Autoregressive integrated moving average) ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &amp;hellip;) and also predict furhter values.
 ARIMA analysis will focus on the logic of model and how to select the three important terms of the model: p is the order of the AR term,
 q is the order of the MA term, d is the number of differencing required to make the time series stationary.</description>
     </item>

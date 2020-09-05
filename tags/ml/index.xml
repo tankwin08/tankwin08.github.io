@@ -12,14 +12,15 @@
     
     
     <item>
-      <title>Fraud detection using ML and PySpark framework</title>
-      <link>/projects/creations/pyspark_ml_fraud_detection/</link>
+      <title>Enhanced fraud detection using ML and PySpark framework with feature selection</title>
+      <link>/projects/creations/enhanced_pyspark_ml_fraud_detection_feature_selection/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
-      <guid>/projects/creations/pyspark_ml_fraud_detection/</guid>
-      <description>Introduction The image on the right was obtained from here.
-There is a lack of public available datasets on financial services and specially in the emerging mobile money transactions domain. Financial datasets are important to many researchers and in particular to us performing research in the domain of fraud detection. Part of the problem is the intrinsically private nature of financial transactions, that leads to no publicly available datasets.
-A synthetic dataset were generated using the simulator called PaySim.</description>
+      <guid>/projects/creations/enhanced_pyspark_ml_fraud_detection_feature_selection/</guid>
+      <description>Introduction Goal To examplify the feature selection strategy in PySpark and furhter enhanc the pyspark pipeline&amp;rsquo;s performance on fraud detection.
+In this project, I will continue to work on the data from the project fradu_detection_ML_PySpark. The data exploration will be same, and the feature selction will use input perturbation strtegry instead of PCA as I did in the previous project.
+Why feature selection? 1. Curse of dimensionality — Overfitting
+The common theme of the problems is that when the dimensionality increases, the volume of the space increases so fast that the available data become sparse.</description>
     </item>
     
   </channel>

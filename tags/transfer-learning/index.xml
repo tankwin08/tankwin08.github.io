@@ -6,10 +6,21 @@
     <description>Recent content in Transfer learning on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sentimental analysis of reviewers&#39; feedback using BERT vs. Machien learning</title>
+      <link>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</link>
+      <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</guid>
+      <description>Introduction Sentimental analysis of reviewers&amp;rsquo; feedback using BERT vs. Machine learning Note: Retraining the BERT model took a long time using a local computer, to run in the Google Colab will be a good choice
+Objectives To predict sentiment (postive, neutral, negeative) of customer feedback using tweet texts of differnt airline companies and compare different models&amp;rsquo;performace on text classification.
+Specifically, multiple machine learing models such as KNN, Random forest and SVC have been used for conduct classification as a baseline.</description>
+    </item>
     
     <item>
       <title>Sentiment analysis for review classification using SWIVEL and a small datasets</title>

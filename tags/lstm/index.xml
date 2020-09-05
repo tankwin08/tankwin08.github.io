@@ -28,7 +28,7 @@ Standard deep learning method such as LSTM do not capture model uncertianty. How
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/arima_vs._lstm_time_series_data/</guid>
-      <description>Introduction ARIMA ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &amp;hellip;) and also predict furhter values.
+      <description>Introduction ARIMA (Autoregressive integrated moving average) ARIMA can explain the time series pattern for given frequency or lag (hour, day and week &amp;hellip;) and also predict furhter values.
 ARIMA analysis will focus on the logic of model and how to select the three important terms of the model: p is the order of the AR term,
 q is the order of the MA term, d is the number of differencing required to make the time series stationary.</description>
     </item>

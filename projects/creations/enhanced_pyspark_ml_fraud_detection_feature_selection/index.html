@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tan Zhou | Enhanced fraud detection using ML and PySpark framework with feature selection</title>
+  <meta property="og:title" content="Tan Zhou | Enhanced fraud detection using ML and PySpark framework with feature selection" />
+  <meta property="og:image" content="/img/tan_zhou.jpg" />
+  <meta name="description" content="To develop a generalized model to deal with big and imblance data prediction that suitable for real-time fraud detection at the PySpark framework">
+  <meta property="og:description" content="To develop a generalized model to deal with big and imblance data prediction that suitable for real-time fraud detection at the PySpark framework" />
+  <meta name="author" content="Tan Zhou">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
+  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Tan Zhou</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/tan_zhou.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/enhanced_pyspark_ml_fraud_detection_feature_selection/">Enhanced fraud detection using ML and PySpark framework with feature selection</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Enhanced fraud detection using ML and PySpark framework with feature selection</span></h2>
+    <img src="/img/feature_importance_pyspark.png" style="max-height:300px;max-width:30%;" align="right"/>
+    <h1 id="introduction">Introduction</h1>
+<h2 id="goal">Goal</h2>
+<p>To examplify the feature selection strategy in PySpark and furhter enhanc the pyspark pipeline&rsquo;s performance on fraud detection.</p>
+<p>In this project, I will continue to work on the data from the project <a href="https://github.com/tankwin08/PySpark_Fraud_detection_ML">fradu_detection_ML_PySpark</a>. The data exploration will be same, and the feature selction will use input perturbation strtegry instead of PCA as I did in the previous project.</p>
+<h2 id="why-feature-selectionhttpsmlwhizcomblog20190807feature_selectionutm_campaignnewsutm_mediumcommunityutm_sourcedatacampcom">Why <a href="https://mlwhiz.com/blog/2019/08/07/feature_selection/?utm_campaign=News&amp;utm_medium=Community&amp;utm_source=DataCamp.com">feature selection</a>?</h2>
+<p><strong>1. Curse of dimensionality — Overfitting</strong></p>
+<p>The common theme of the problems is that when the dimensionality increases, the volume of the space increases so fast that the available data become sparse. This sparsity is problematic for any method that requires statistical significance.</p>
+<p>In order to obtain a statistically sound and reliable result, the amount of data needed to support the result often grows exponentially with the dimensionality.</p>
+<p>Also, organizing and searching data often relies on detecting areas where objects form groups with similar properties; in high dimensional data, however, all objects appear to be sparse and dissimilar in many ways, which prevents common data organization strategies from being efficient.</p>
+<p><strong>2. Occam’s Razor</strong></p>
+<p>We want our models to be simple and explainable. We lose explainability when we have a lot of features.</p>
+<p><strong>3 Noise in the data</strong></p>
+<p>In real applications, the data are not perfect and always noisy inherently.</p>
+<h2 id="commonly-used-methods-for-feature-selection">Commonly used methods for feature selection</h2>
+<p>In summary, there are several commonly used methods to conduct feature selction in data preprocessing.</p>
+<p><strong>1 Correlation or chi-square</strong></p>
+<p>Chose the top-n high correlated variables or high chi-squre variables with respective to target variables.
+The intuition is that if a feature is independent to the target, it will not be useful or uninformative for target classification or regression.</p>
+<p><strong>2 Stepwise method</strong></p>
+<p>This is a wrapper based method. The goal of recursive feature elimination (RFE) is to select features by recursively considering smaller and smaller sets of features. First, the estimator is trained on the initial set of features and the importance of each feature is obtained either through a coef_ attribute or through a feature_importances_ attribute. Then, the least important features are pruned from current set of features. That procedure is recursively repeated on the pruned set until the desired number of features to select is eventually reached.</p>
+<p>**3 Lasso - Penalized likelihood **</p>
+<p>LASSO models have been used extensively in high-dimensional model selection problems, that is when the number of IVs 𝑘 by far exceeds the sample size 𝑛.</p>
+<p>Regression coefficients estimated by the LASSO are biased by intention, but can have smaller mean squared error (MSE) than conventional estimates. It prefer to have fewer variales with huge contribution to the target.</p>
+<p>Because of the bias, their interpretation in explanatory or descriptive models is difficult, and confidence intervals based on resampling procedures such as the percentile bootstrap do not reach their claimed nominal level. Another problem with LASSO estimation is its dependence on the scale of the covariates</p>
+<p><strong>4 PCA</strong></p>
+<p>PCA is a commonly used as dimension reduction technique by projecting each data point onto only the first few principal components to obtain lower-dimensional data while preserving as much of the data&rsquo;s variation as possible.</p>
+<p>The advantages of PCA:</p>
+<ol>
+<li>Removes Correlated Features</li>
+<li>Improves Algorithm Performance</li>
+<li>Reduces Overfitting</li>
+<li>Improves Visualization</li>
+</ol>
+<p>The things we need to consider before using PCA:</p>
+<ol>
+<li>Independent variables become less interpretable:</li>
+<li>Data standardization is must before PCA: pca is affected by scale</li>
+<li>Information loss</li>
+</ol>
+<p><strong>5 Input Perturbation</strong></p>
+<p>This algorithm was introduced by <a href="https://en.wikipedia.org/wiki/Leo_Breiman">Breiman</a> in his seminal paper on random forests.  Although he presented this algorithm in conjunction with random forests, it is model-independent and appropriate for any supervised learning model.</p>
+<p>This algorithm, known as the input perturbation algorithm, works by evaluating a trained model’s accuracy with each of the inputs individually shuffled from a data set.  Shuffling an input causes it to become useless—effectively removing it from the model. More important inputs will produce a less accurate score when they are removed by shuffling them. This process makes sense, because important features will contribute to the accuracy of the model.</p>
+
+    <p>Project link: <a href="https://github.com/tankwin08/Improved_fraud_detection_PySpark_feature_importances">https://github.com/tankwin08/Improved_fraud_detection_PySpark_feature_importances</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/pipeline">pipeline</a></li>
+    
+      <li><a class="tag" href="/tags/ml">ML</a></li>
+    
+      <li><a class="tag" href="/tags/hyperparameter-tunning">Hyperparameter tunning</a></li>
+    
+      <li><a class="tag" href="/tags/pyspark">PySpark</a></li>
+    
+      <li><a class="tag" href="/tags/fraud-detection">Fraud detection</a></li>
+    
+      <li><a class="tag" href="/tags/feature-importance">Feature importance</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+  
+
+  
+</body>
+</html>

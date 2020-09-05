@@ -17,9 +17,9 @@
       <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</guid>
-      <description>Introduction Sentimental analysis of reviewers&amp;rsquo; feedback using BERT vs. Machine learning Note: Retraining the BERT model took a long time using a local computer, to run in the Google Colab will be a good choice
+      <description>Introduction Note: Retraining the BERT model took a long time using a local computer, to run in the Google Colab will be a good choice
 Objectives To predict sentiment (postive, neutral, negeative) of customer feedback using tweet texts of differnt airline companies and compare different models&amp;rsquo;performace on text classification.
-Specifically, multiple machine learing models such as KNN, Random forest and SVC have been used for conduct classification as a baseline.</description>
+Specifically, multiple machine learing models such as KNN, Random forest and SVC have been used for conduct classification as a baseline. A new language representation model named BERT (Bidirectional Encoder Representations from Transformers) was also implemented to conduct sentiment analysis.</description>
     </item>
     
     <item>

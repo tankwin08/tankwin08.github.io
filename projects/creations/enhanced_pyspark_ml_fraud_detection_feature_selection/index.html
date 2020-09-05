@@ -147,7 +147,7 @@
 The intuition is that if a feature is independent to the target, it will not be useful or uninformative for target classification or regression.</p>
 <p><strong>2 Stepwise method</strong></p>
 <p>This is a wrapper based method. The goal of recursive feature elimination (RFE) is to select features by recursively considering smaller and smaller sets of features. First, the estimator is trained on the initial set of features and the importance of each feature is obtained either through a coef_ attribute or through a feature_importances_ attribute. Then, the least important features are pruned from current set of features. That procedure is recursively repeated on the pruned set until the desired number of features to select is eventually reached.</p>
-<p>**3 Lasso - Penalized likelihood **</p>
+<p><strong>3 Lasso - Penalized likelihood</strong></p>
 <p>LASSO models have been used extensively in high-dimensional model selection problems, that is when the number of IVs 𝑘 by far exceeds the sample size 𝑛.</p>
 <p>Regression coefficients estimated by the LASSO are biased by intention, but can have smaller mean squared error (MSE) than conventional estimates. It prefer to have fewer variales with huge contribution to the target.</p>
 <p>Because of the bias, their interpretation in explanatory or descriptive models is difficult, and confidence intervals based on resampling procedures such as the percentile bootstrap do not reach their claimed nominal level. Another problem with LASSO estimation is its dependence on the scale of the covariates</p>

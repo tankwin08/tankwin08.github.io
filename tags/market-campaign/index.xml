@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Market campaign on Tan Zhou</title>
+    <link>/tags/market-campaign/</link>
+    <description>Recent content in Market campaign on Tan Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2020 12:41:05 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/market-campaign/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ensemble models in PySpark</title>
+      <link>/projects/creations/ensemble_model_pyspark/</link>
+      <pubDate>Sat, 01 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/ensemble_model_pyspark/</guid>
+      <description>Introduction Ensemble models Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -29,7 +29,8 @@ The common theme of the problems is that when the dimensionality increases, the 
       <pubDate>Sat, 01 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/ensemble_model_pyspark/</guid>
-      <description>Introduction Ensemble models Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
+      <description>Introduction Goal To examplify the uses of ensemble models in PySpark as the ensemble models in previous project using sklearn and keras and predict if the client will subscribe (yes/no) a term deposit (variable y) using market campaign data.
+Ensemble models Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data.</description>
     </item>
     
   </channel>

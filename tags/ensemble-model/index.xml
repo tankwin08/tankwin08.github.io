@@ -21,5 +21,15 @@
 Ensemble models Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data.</description>
     </item>
     
+    <item>
+      <title>Ensemble models for classification (combine deep learning with machine learning)</title>
+      <link>/projects/creations/ensemble_models_classification/</link>
+      <pubDate>Fri, 14 Feb 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/ensemble_models_classification/</guid>
+      <description>Introduction:
+Ensemble modeling is a process where multiple diverse models are created to predict an outcome, either by using many different modeling algorithms or using different training data sets. The ensemble model then aggregates the prediction of each base model and results in once final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction. As long as the base models are diverse and independent, the prediction error of the model decreases when the ensemble approach is used.</description>
+    </item>
+    
   </channel>
 </rss>

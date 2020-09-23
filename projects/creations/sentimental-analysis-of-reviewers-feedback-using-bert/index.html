@@ -129,7 +129,6 @@
     <img src="/img/word_cloud_tweet.png" style="max-height:300px;max-width:30%;" align="right"/>
     <h1 id="introduction">Introduction</h1>
 <p><strong>Note:</strong> Retraining the BERT model took a long time using a local computer, to run in the Google Colab will be a good choice</p>
-<p><img src="./img/word_cloud_tweet.png" alt=""></p>
 <h2 id="objectives">Objectives</h2>
 <p>To predict sentiment (postive, neutral, negeative) of customer feedback using tweet texts of differnt airline companies and compare different models&rsquo;performace on text classification.</p>
 <p>Specifically, multiple machine learing models such as KNN, Random forest and SVC have been used for conduct classification as a baseline. A new language representation model named BERT (Bidirectional Encoder Representations from Transformers) was also implemented to conduct sentiment analysis.</p>
@@ -138,7 +137,7 @@
 <p>BERT is a method of pretraining language representations that was used to create models that NLP practicioners can then download and use for free. You can either use these models to extract high quality language features from your text data, or you can fine-tune these models on a specific task (classification, entity recognition, question answering, etc.) with your own data to produce state of the art predictions.</p>
 <h3 id="how-bert-works">How BERT works?</h3>
 <p>BERT was built on the Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. The attention mechanism was used to extratct information of context of a given words and then encode it in a learned vector. Generally, there are two mechanisms - an encoder that reads the text input and a decoder that produces a prediction for the task.</p>
-<p>The detailed workings of Transformer are described in a <a href="https://arxiv.org/abs/1810.04805">paper by Google</a>. Te figure below describe the brief steps of BERT during the traning process.</p>
+<p>The detailed workings of Transformer are described in a <a href="https://arxiv.org/abs/1810.04805">paper by Google</a>. The figure below describe the brief steps of BERT during the traning process.</p>
 <p><img src="./img/bert_embedding.png" alt=""></p>
 <p>where the model takes a pair of sequences and pools the representation of the first token in the sequence. Note that the original BERT model was trained for a masked language model and next-sentence prediction tasks, which includes layers for language model decoding and classification. These layers will not be used for fine-tuning the sentence pair classification.</p>
 <p>To help the model distinguish between the two sentences in training, the input is processed in the following way before entering the model:</p>

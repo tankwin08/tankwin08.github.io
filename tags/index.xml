@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CNN</title>
+      <link>/tags/cnn/</link>
+      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data augmentation</title>
+      <link>/tags/data-augmentation/</link>
+      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/data-augmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Healthcare</title>
+      <link>/tags/healthcare/</link>
+      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Malaria</title>
+      <link>/tags/malaria/</link>
+      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/malaria/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BERT</title>
@@ -174,7 +210,7 @@
     </item>
     
     <item>
-      <title>Bayesian Uncertainty</title>
+      <title>Bayesian uncertainty</title>
       <link>/tags/bayesian-uncertainty/</link>
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
       

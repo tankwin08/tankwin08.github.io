@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tan Zhou | Malaria detection using CNN and data augmentation</title>
+  <meta property="og:title" content="Tan Zhou | Malaria detection using CNN and data augmentation" />
+  <meta property="og:image" content="/img/tan_zhou.jpg" />
+  <meta name="description" content="The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.">
+  <meta property="og:description" content="The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites." />
+  <meta name="author" content="Tan Zhou">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
+  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
+  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Tan Zhou</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/tan_zhou.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#open">Open Source</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="/projects/creations/">Creations</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="/projects/creations/malaria_detection_cnn_healthcare/">Malaria detection using CNN and data augmentation</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Malaria detection using CNN and data augmentation</span></h2>
+    <img src="/img/malaria_parasite.jpg" style="max-height:300px;max-width:30%;" align="right"/>
+    <h2 id="malaria-classifiation-using-cnn-and-data-augumentation">Malaria classifiation using CNN and data augumentation</h2>
+<h2 id="objective">Objective:</h2>
+<p>The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.</p>
+<h2 id="malaria">Malaria</h2>
+<p>Malaria is caused by Plasmodium parasites. The parasites are spread to people through the bites of infected female Anopheles mosquitoes, called &ldquo;malaria vectors.&rdquo;</p>
+<p>Generally, the first symptoms of Malaria is fever, headache, and chills, but these symptoms usually appear after 10-15 days after the infective mosquito bite.</p>
+<p>In addition, the symptoms can be mild or severe and different for children and adult, which make it very difficult to recognize the malaria. <strong>For example</strong>, children with severe malaria frequently develop one or more of the following symptoms: severe anaemia, respiratory distress in relation to metabolic acidosis, or cerebral malaria. In adults, multi-organ failure is also frequent. In malaria endemic areas, people may develop partial immunity, allowing asymptomatic infections to occur.</p>
+<h3 id="diagnosis-of-malaria-can-be-difficult">Diagnosis of Malaria can be difficult</h3>
+<p>1 Where malaria is not endemic any more (such as in the United States), health-care providers may not be familiar with the disease. Clinicians seeing a malaria patient may forget to consider malaria among the potential diagnoses and not order the needed diagnostic tests. Laboratorians may lack experience with malaria and fail to detect parasites when examining blood smears under the microscope.</p>
+<p>2 In some malaria-endemic areas, malaria transmission is so intense that a large proportion of the population is infected but not made ill by the parasites. Such carriers have developed just enough immunity to protect them from malarial illness but not from malarial infection. In that situation, finding malaria parasites in an ill person does not necessarily mean that the illness is caused by the parasites.</p>
+<p>There are multiple ways to diagnosis the Malaria parasites, such as Clinical diagnosis, Microscopic Diagnosis, Antigen detection, Molecular diagnosis,Serology and Drug resistance tests.</p>
+<p><strong>Thus, to develop a automated and robust system to diagnosis the Malaria parasites is emergent and can speed up the traditional way of malaria parasite diagnosis. In this project, we focus on approach named the Microscopic Diagnosis.</strong></p>
+<h3 id="microscopic-diagnosis">Microscopic Diagnosis</h3>
+<p>Microscopic Diagnosis is to identify the Malaria parasites by examining under the microscope a drop of the patient’s blood, spread out as a “blood smear” on a microscope slide. Prior to examination, the specimen is stained to give the parasites a distinctive appearance. This technique remains the gold standard for laboratory confirmation of malaria. However, it depends on the quality of the reagents, of the microscope, and on the experience of the laboratorian.</p>
+<h2 id="data">Data</h2>
+<p>The data was obtained from <a href="https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria">kaggle</a>. Originally, the data was taken from the official <a href="https://ceb.nlm.nih.gov/repositories/malaria-datasets/">NIH Website</a>.</p>
+<p>There are two folders which contained the infected and uninfected malaria microscopic images.</p>
+<h2 id="method-summary">Method summary</h2>
+<pre><code>1 Download data
+
+2 Data exploration
+
+3 Data prepraration
+
+4 Data split into train, validate and test data sets
+
+5 Model building and evaluation: original data and data augumentation
+</code></pre>
+<p><strong>Note</strong>: I used my local computer to run this anlysis which took a long time to run, maybe changed to a better computer resources such as Google Colab could save time.</p>
+<h2 id="references">References</h2>
+<p>CDC <a href="https://www.cdc.gov/malaria/diagnosis_treatment/diagnostic_tools.html#tabs-1-1">Microscopic Diagnosis</a></p>
+<p>WHO <a href="https://www.who.int/news-room/fact-sheets/detail/malaria">Malaria</a></p>
+<p>Malaria Cell Atlas: mapping a murderous parasite’s <a href="https://sangerinstitute.blog/2019/08/22/malaria-cell-atlas-mapping-a-murderous-parasites-life-cycle/">life cycle</a></p>
+
+    <p>Project link: <a href="https://github.com/tankwin08/Malaria_detection_CNN">https://github.com/tankwin08/Malaria_detection_CNN</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/cnn">CNN</a></li>
+    
+      <li><a class="tag" href="/tags/data-augmentation">data augmentation</a></li>
+    
+      <li><a class="tag" href="/tags/malaria">Malaria</a></li>
+    
+      <li><a class="tag" href="/tags/healthcare">Healthcare</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+  
+
+  
+</body>
+</html>

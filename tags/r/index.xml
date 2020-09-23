@@ -23,17 +23,6 @@ A wealth of Full Waveform (FW) LiDAR data are available to the public from diffe
     </item>
     
     <item>
-      <title>R package - waveformlidar data processing and analysis</title>
-      <link>/projects/creations/waveformlidar_r_package/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/waveformlidar_r_package/</guid>
-      <description>Make waveform lidar processing become easier and enable users can use exisitng Discrete-return lidar data processing tools.
-Introduction:
-A wealth of Full Waveform (FW) LiDAR data are available to the public from different sources, which is poised to boost the extensive application of FW LiDAR data. However, we lack a handy and open source tool that can be used by potential users for processing and analyzing FW LiDAR data. To this end, we introduce waveformlidar, an R package dedicated to FW LiDAR processing, analysis and visualization as a solution to the constraint.</description>
-    </item>
-    
-    <item>
       <title>Tree segmentation using free available tools</title>
       <link>/projects/contributions/tree_segmentation/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>

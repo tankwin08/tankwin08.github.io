@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dropout on Tan Zhou</title>
+    <title>dropout on Tan Zhou</title>
     <link>/tags/dropout/</link>
-    <description>Recent content in Dropout on Tan Zhou</description>
+    <description>Recent content in dropout on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/dropout/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Malaria detection using CNN and data augmentation</title>
+      <link>/projects/creations/malaria_detection_cnn_healthcare/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/malaria_detection_cnn_healthcare/</guid>
+      <description>Objective: The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.
+Malaria Malaria is caused by Plasmodium parasites. The parasites are spread to people through the bites of infected female Anopheles mosquitoes, called &amp;ldquo;malaria vectors.&amp;rdquo;
+Generally, the first symptoms of Malaria is fever, headache, and chills, but these symptoms usually appear after 10-15 days after the infective mosquito bite.</description>
+    </item>
     
     <item>
       <title>Bayesian Uncertainty for time series data (EVI) prediction using LSTM and autoencoder</title>

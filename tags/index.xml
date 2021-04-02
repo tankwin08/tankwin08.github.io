@@ -6,46 +6,10 @@
     <description>Recent content in Tags on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CNN</title>
-      <link>/tags/cnn/</link>
-      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/cnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data augmentation</title>
-      <link>/tags/data-augmentation/</link>
-      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/data-augmentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Healthcare</title>
-      <link>/tags/healthcare/</link>
-      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/healthcare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Malaria</title>
-      <link>/tags/malaria/</link>
-      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/malaria/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>BERT</title>
@@ -111,6 +75,51 @@
     </item>
     
     <item>
+      <title>Binary</title>
+      <link>/tags/binary/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/binary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNN</title>
+      <link>/tags/cnn/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data augmentation</title>
+      <link>/tags/data-augmentation/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/data-augmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dropout</title>
+      <link>/tags/dropout/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/dropout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EDA and Diagnosis</title>
+      <link>/tags/eda-and-diagnosis/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/eda-and-diagnosis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Feature importance</title>
       <link>/tags/feature-importance/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
@@ -129,6 +138,15 @@
     </item>
     
     <item>
+      <title>Healthcare</title>
+      <link>/tags/healthcare/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hyperparameter tunning</title>
       <link>/tags/hyperparameter-tunning/</link>
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
@@ -143,6 +161,15 @@
       <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/imblanced-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Malaria</title>
+      <link>/tags/malaria/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/tags/malaria/</guid>
       <description></description>
     </item>
     
@@ -215,15 +242,6 @@
       <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
       
       <guid>/tags/bayesian-uncertainty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dropout</title>
-      <link>/tags/dropout/</link>
-      <pubDate>Sat, 11 Jul 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/tags/dropout/</guid>
       <description></description>
     </item>
     

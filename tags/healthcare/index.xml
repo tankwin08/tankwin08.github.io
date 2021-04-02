@@ -6,7 +6,7 @@
     <description>Recent content in Healthcare on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2020 12:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate>
     
 	<atom:link href="/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Malaria detection using CNN and data augmentation</title>
       <link>/projects/creations/malaria_detection_cnn_healthcare/</link>
-      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
       
       <guid>/projects/creations/malaria_detection_cnn_healthcare/</guid>
-      <description>Malaria classifiation using CNN and data augumentation Objective: The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.
+      <description>Objective: The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.
 Malaria Malaria is caused by Plasmodium parasites. The parasites are spread to people through the bites of infected female Anopheles mosquitoes, called &amp;ldquo;malaria vectors.&amp;rdquo;
 Generally, the first symptoms of Malaria is fever, headache, and chills, but these symptoms usually appear after 10-15 days after the infective mosquito bite.</description>
     </item>

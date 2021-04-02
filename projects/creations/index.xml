@@ -12,17 +12,6 @@
     
     
     <item>
-      <title>Malaria detection using CNN and data augmentation</title>
-      <link>/projects/creations/malaria_detection_cnn_healthcare/</link>
-      <pubDate>Fri, 11 Sep 2020 12:41:05 -0500</pubDate>
-      
-      <guid>/projects/creations/malaria_detection_cnn_healthcare/</guid>
-      <description>Malaria classifiation using CNN and data augumentation Objective: The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.
-Malaria Malaria is caused by Plasmodium parasites. The parasites are spread to people through the bites of infected female Anopheles mosquitoes, called &amp;ldquo;malaria vectors.&amp;rdquo;
-Generally, the first symptoms of Malaria is fever, headache, and chills, but these symptoms usually appear after 10-15 days after the infective mosquito bite.</description>
-    </item>
-    
-    <item>
       <title>Sentimental analysis of reviewers&#39; feedback using BERT vs. Machien learning</title>
       <link>/projects/creations/sentimental-analysis-of-reviewers-feedback-using-bert/</link>
       <pubDate>Tue, 01 Sep 2020 12:41:05 -0500</pubDate>
@@ -54,6 +43,17 @@ The common theme of the problems is that when the dimensionality increases, the 
       <description>Introduction The image on the right was obtained from here.
 There is a lack of public available datasets on financial services and specially in the emerging mobile money transactions domain. Financial datasets are important to many researchers and in particular to us performing research in the domain of fraud detection. Part of the problem is the intrinsically private nature of financial transactions, that leads to no publicly available datasets.
 A synthetic dataset were generated using the simulator called PaySim.</description>
+    </item>
+    
+    <item>
+      <title>Malaria detection using CNN and data augmentation</title>
+      <link>/projects/creations/malaria_detection_cnn_healthcare/</link>
+      <pubDate>Tue, 11 Aug 2020 12:41:05 -0500</pubDate>
+      
+      <guid>/projects/creations/malaria_detection_cnn_healthcare/</guid>
+      <description>Objective: The aim of this project is to distingulish if a person was infeacted with the Malaria from a microscopic image, and provide support for the lab examination results to quickly diagnosis the Malaria parasites.
+Malaria Malaria is caused by Plasmodium parasites. The parasites are spread to people through the bites of infected female Anopheles mosquitoes, called &amp;ldquo;malaria vectors.&amp;rdquo;
+Generally, the first symptoms of Malaria is fever, headache, and chills, but these symptoms usually appear after 10-15 days after the infective mosquito bite.</description>
     </item>
     
     <item>

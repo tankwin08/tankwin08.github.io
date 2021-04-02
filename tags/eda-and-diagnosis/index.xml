@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data augmentation on Tan Zhou</title>
-    <link>/tags/data-augmentation/</link>
-    <description>Recent content in data augmentation on Tan Zhou</description>
+    <title>EDA and Diagnosis on Tan Zhou</title>
+    <link>/tags/eda-and-diagnosis/</link>
+    <description>Recent content in EDA and Diagnosis on Tan Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Aug 2020 12:41:05 -0500</lastBuildDate>
     
-	<atom:link href="/tags/data-augmentation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/eda-and-diagnosis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
